@@ -33,6 +33,7 @@ class ImageUploader {
     const toUploadURLs = urlList.map(async (image) => {
       return await new Promise<ImageSource | undefined>(async (resolve) => {
         try {
+          out.info('上传图片', `图片: ${image.original}`)
           if(image.original.indexOf('yuque')==-1){
             out.info('忽略上传', `图片非语雀`)
             resolve(undefined);
@@ -53,7 +54,7 @@ class ImageUploader {
           // 检查图床是否存在该文件
           let exist = await this.ctx.hasImage(fullName)
           if (exist) {
-            out.info('忽略上传', `图片已存在: ${exist}`)
+            out.info('忽略上传::', `图片已存在: ${exist}`)
             // 图片已存在
             resolve({
               fileName: fullName,
@@ -136,7 +137,12 @@ class ImageUploader {
           // 替换文章中的图片
           urls.forEach((item) => {
             out.info('图片替换', `${item.url}`)
+            if(item.original.indexOf('yuque')==-1){
+              articleInfo.body = articleInfo.body.replace(item.original, item.url)
+            }
+            else{
             articleInfo.body = articleInfo.body.replace(item.original, item.url)
+          }
           })
         }
       }
