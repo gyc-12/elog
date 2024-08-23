@@ -33,7 +33,7 @@ class ImageUploader {
     const toUploadURLs = urlList.map(async (image) => {
       return await new Promise<ImageSource | undefined>(async (resolve) => {
         try {
-          if(image.url.indexOf('yuque')==-1){
+          if(image.original.indexOf('yuque')==-1){
             out.info('忽略上传', `图片非语雀`)
             resolve(undefined);
             return
