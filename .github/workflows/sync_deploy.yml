@@ -27,10 +27,8 @@ jobs:
       - name: 安装Hexo并使用elog
         run: |
           export TZ='Asia/Shanghai'
-          npm install hexo-cli -g
-          npm install 
-          npm run elog      
-          hexo generate
+          pnpm install 
+          pnpm run elog      
 
       - name: 拉取语雀文章
         env:
