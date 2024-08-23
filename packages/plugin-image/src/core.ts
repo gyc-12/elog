@@ -33,6 +33,10 @@ class ImageUploader {
     const toUploadURLs = urlList.map(async (image) => {
       return await new Promise<ImageSource | undefined>(async (resolve) => {
         try {
+          if(image.url.indexOf('yuque')==-1){
+            resolve(undefined);
+            return
+          }
           // 生成文件名
           const fileName = generateUniqueId(image.url)
           // 生成文件名后缀
