@@ -48,16 +48,14 @@ jobs:
           # 对应package.json中的script.sync
           elog sync
 
-      - name: 配置Git用户名邮箱
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-
-      - name: 提交yuque拉取的文章到GitHub仓库
+      - name: 更新时间并提交更改
         run: |
           echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
-          git add .
-          git commit -m "更新文档" -a || echo "没有变更需要提交"
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git commit -m "docs: 更新文档时间戳" || echo "没有变更需要提交"
+        env:
+          PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
 
       - name: 推送文章到仓库
         uses: ad-m/github-push-action@master
