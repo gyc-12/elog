@@ -65,8 +65,8 @@ module.exports = {
     }
   },
   image: {
-    enable: false,
-    platform: 'local',
+    enable: true,
+    platform: 'github',
     local: {
       outputDir: './docs/images',
       prefixKey: '/images',
