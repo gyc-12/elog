@@ -1,0 +1,72 @@
+name: Deploy Yuque-Hexo Public To Pages
+
+on:
+  push:
+    branches:
+      - main 
+  repository_dispatch:
+    types:
+      - deploy
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检查分支
+        uses: actions/checkout@v2
+
+      - name: 安装node环境
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16.x"
+          
+      - name: 安装pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 6.32.9
+
+      - name: 安装Hexo并使用elog
+        run: |
+          export TZ='Asia/Shanghai'
+          pnpm install --no-frozen-lockfile
+          pnpm add -g @elog/cli    
+
+      - name: 拉取语雀文章
+        env:
+          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+          YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
+          YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
+          ELOG_GITHUB_USER: ${{ secrets.ELOG_GITHUB_USER }}
+          ELOG_GITHUB_REPO: ${{ secrets.ELOG_GITHUB_REPO }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          elog sync
+
+      - name: 更新时间并提交更改
+        run: |
+          echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git add .
+          git commit -m "docs: 更新文档和时间戳" || echo "没有变更需要提交"
+        env:
+          PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+
+      - name: 检出目标仓库
+        uses: actions/checkout@v2
+        with:
+          repository: gyc-12/gyc-hexo
+          token: ${{ secrets.ACCESS_TOKEN }}
+          path: gyc-hexo
+
+      - name: 复制文件并提交
+        run: |
+          cp -R docs/* gyc-hexo/source/_posts/
+          cd gyc-hexo
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add .
+          git commit -m "Update posts from Yuque" || echo "No changes to commit"
+          git push
