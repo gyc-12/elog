@@ -45,7 +45,7 @@ jobs:
           ELOG_GITHUB_REPO: ${{ secrets.ELOG_GITHUB_REPO }}
         run: |
           # 对应package.json中的script.sync
-          elog sync -e .elog.env
+          elog sync
 
       - name: 配置Git用户名邮箱
         run: |
