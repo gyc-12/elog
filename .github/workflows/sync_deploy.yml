@@ -33,7 +33,7 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           pnpm install 
-          pnpm run elog      
+          pnpm i @elog/cli      
 
       - name: 拉取语雀文章
         env:
