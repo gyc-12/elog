@@ -26,6 +26,15 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 6.32.9
+      - name: Cache pnpm modules
+        uses: actions/cache@v2
+        with:
+          path: |
+           ~/.pnpm-store
+           **/node_modules
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+           ${{ runner.os }}-pnpm-
 
       - name: 安装Hexo并使用elog
         run: |
@@ -51,7 +60,7 @@ jobs:
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git add .
           git status  # 显示更改状态
-          git commit -m "Update posts from Yuque" || echo "没有更改需要提交"
+          git commit -m "docs(yuque): update posts from Yuque" || echo "没有更改需要提交"
           git push || echo "推送失败，请检查权限和远程仓库状态"
         env:
           GIT_TRACE: 1  # 启用 Git 跟踪以获取更多信息
