@@ -23,6 +23,11 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: "16.x"
+          
+      - name: 安装pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 6.32.9
 
       - name: 安装Hexo并使用elog
         run: |
