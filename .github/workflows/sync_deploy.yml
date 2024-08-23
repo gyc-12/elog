@@ -47,8 +47,6 @@ jobs:
 
       - name: 复制文件并提交
         run: |
-          cp -R -f  docs/* gyc-hexo/source/_posts/ || echo "复制失败，可能是源目录不存在"
-          cd gyc-hexo
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git add .
