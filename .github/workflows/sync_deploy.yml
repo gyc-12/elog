@@ -1,0 +1,61 @@
+name: Deploy Yuque-Hexo Public To Pages
+
+on:
+  # 允许手动push触发
+  push:
+    branches:
+      - main 
+  # 允许外部仓库事件触发
+  repository_dispatch:
+    types:
+			# api中的event_type就是这个
+      - deploy
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检查分支
+        uses: actions/checkout@master
+
+      - name: 安装node环境
+        uses: actions/setup-node@master
+        with:
+          node-version: "16.x"
+
+      - name: 安装Hexo并使用elog
+        run: |
+          export TZ='Asia/Shanghai'
+          npm install hexo-cli -g
+          npm install 
+          npm run elog      
+          hexo generate
+
+      - name: 拉取语雀文章
+        env:
+          # 语雀相关环境变量
+          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+          YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
+          YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
+          ELOG_GITHUB_USER: ${{ secrets.ELOG_GITHUB_USER }}
+          ELOG_GITHUB_REPO: ${{ secrets.ELOG_GITHUB_REPO }}
+        run: |
+          # 对应package.json中的script.sync
+          elog sync -e .elog.env
+
+      - name: 配置Git用户名邮箱
+        run: |
+          git config --global user.name "xxxx"
+          git config --global user.email "xxxx"
+
+      - name: 提交yuque拉取的文章到GitHub仓库
+        run: |
+          echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
+          git add .
+          git commit -m "更新文档" -a
+
+      - name: 推送文章到仓库
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
