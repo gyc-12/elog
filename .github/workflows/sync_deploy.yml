@@ -44,15 +44,19 @@ jobs:
         run: |
           elog sync
 
-      - name: 更新时间并提交更改
+
+      - name: 复制文件并提交
         run: |
-          echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          cp -R docs/* gyc-hexo/source/_posts/ || echo "复制失败，可能是源目录不存在"
+          cd gyc-hexo
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
           git add .
-          git commit -m "docs: 更新文档和时间戳" || echo "没有变更需要提交"
+          git status  # 显示更改状态
+          git commit -m "Update posts from Yuque" || echo "没有更改需要提交"
+          git push || echo "推送失败，请检查权限和远程仓库状态"
         env:
-          PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+          GIT_TRACE: 1  # 启用 Git 跟踪以获取更多信息
 
       - name: 检出目标仓库
         uses: actions/checkout@v2
