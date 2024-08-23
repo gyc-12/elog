@@ -53,7 +53,8 @@ jobs:
           echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git commit -m "docs: 更新文档时间戳" || echo "没有变更需要提交"
+          git add .
+          git commit -m "docs: 更新文档和时间戳" || echo "没有变更需要提交"
         env:
           PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
 
