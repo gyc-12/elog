@@ -9,6 +9,7 @@ on:
   repository_dispatch:
     types:
       - deploy
+  workflow_dispatch:
 
 jobs:
   build:
