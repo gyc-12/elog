@@ -136,13 +136,10 @@ class ImageUploader {
         if (urls?.length) {
           // 替换文章中的图片
           urls.forEach((item) => {
-            out.info('图片替换', `${item.url}`)
-            if(item.original.indexOf('yuque')==-1){
-              articleInfo.body = articleInfo.body.replace(item.original, item.url)
-            }
-            else{
+            out.info('图片替换111', `${item.url}`)
+          
             articleInfo.body = articleInfo.body.replace(item.original, item.url)
-          }
+          
           })
         }
       }
@@ -183,7 +180,7 @@ class ImageUploader {
         if (urls?.length) {
           // 替换文章中的图片
           urls.forEach((item) => {
-            out.info('图片替换', `${item.url}`)
+            out.info('图片替换222', `${item.url}`)
             articleInfo.body = articleInfo.body.replace(item.original, item.url)
           })
         }
