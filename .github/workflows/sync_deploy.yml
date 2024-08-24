@@ -34,21 +34,11 @@ jobs:
         with:
           version: 6.32.9
 
-      - name: Cache pnpm modules
-        uses: actions/cache@v2
-        with:
-          path: |
-           ~/.pnpm-store
-           **/node_modules
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-           ${{ runner.os }}-pnpm-
-
-      - name: 安装Hexo并使用elog
+      - name: 使用elog
         run: |
           export TZ='Asia/Shanghai'
           pnpm install --no-frozen-lockfile
-          pnpm add -g @elog/cli    
+          pnpm run build 
 
       - name: 拉取语雀文章
         env:
@@ -59,7 +49,7 @@ jobs:
           ELOG_GITHUB_REPO: ${{ secrets.ELOG_GITHUB_REPO }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          elog sync
+          node packages/cli/bin/elog.js sync
 
       - name: 复制文件并提交
         run: |
