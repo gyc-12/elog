@@ -2,7 +2,7 @@
 title: lightroom分析学习
 date: 2024-8-24 19:07:05
 tags: "逆向"
-thumbnail: "[https://helpx.adobe.com/content/dam/help/mnemonics/Lr_cc_appicon_noshadow_2017.svg](https://helpx.adobe.com/content/dam/help/mnemonics/Lr_cc_appicon_noshadow_2017.svg)"
+thumbnail: "https://helpx.adobe.com/content/dam/help/mnemonics/Lr_cc_appicon_noshadow_2017.svg"
 ---
 起因
 本来用qiuchenly大佬的注入库，注入后应用程序崩溃，应该是代码没有适配最新的lightroom 7.2，又不想降级应用，所以就自己研究看看怎么实现的。

@@ -2,7 +2,7 @@
 title: 哈皮dog分析学习
 date: 2024-8-24 19:07:05
 tags: "逆向"
-thumbnail: "[https://hapigo.com/static/image/logo.svg](https://hapigo.com/static/image/logo.svg)"
+thumbnail: "https://hapigo.com/static/image/logo.svg"
 ---
 新人学习报告，恳请各位大佬指正。本文仅用于学习逆向知识，不可违法利用。他人以此牟利与本人无关。如有侵权，请联系立即删除。
 
