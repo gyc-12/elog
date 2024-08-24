@@ -16,6 +16,13 @@ jobs:
     steps:
       - name: 检查分支
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Fetch all history for all branches and tags
+
+      - name: 获取最新代码
+        run: |
+          git fetch --all
+          git pull origin master
 
       - name: 安装node环境
         uses: actions/setup-node@v2
@@ -26,6 +33,7 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 6.32.9
+
       - name: Cache pnpm modules
         uses: actions/cache@v2
         with:
@@ -53,7 +61,6 @@ jobs:
         run: |
           elog sync
 
-
       - name: 复制文件并提交
         run: |
           git config user.name "${{ github.actor }}"
@@ -71,9 +78,14 @@ jobs:
           repository: gyc-12/gyc-hexo
           token: ${{ secrets.ACCESS_TOKEN }}
           path: gyc-hexo
+          fetch-depth: 0  # Fetch all history for all branches and tags
 
-      - name: 复制文件并提交
+      - name: 更新目标仓库并复制文件
         run: |
+          cd gyc-hexo
+          git fetch --all
+          git pull origin main
+          cd ..
           cp -R -f docs/* gyc-hexo/source/_posts/
           cd gyc-hexo
           git config user.name "${{ github.actor }}"
