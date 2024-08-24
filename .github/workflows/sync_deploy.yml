@@ -47,7 +47,7 @@ jobs:
           YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
           ELOG_GITHUB_USER: ${{ secrets.ELOG_GITHUB_USER }}
           ELOG_GITHUB_REPO: ${{ secrets.ELOG_GITHUB_REPO }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
           node packages/cli/bin/elog.js sync
 
