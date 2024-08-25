@@ -55,16 +55,14 @@
     {
       "id": 183738803,
       "doc_id": "lcgife06g99g6py8",
-      "updated": 1724583151000,
+      "updated": 1724585494000,
       "properties": {
         "title": "cloudflared",
         "urlname": "lcgife06g99g6py8",
-        "date": "2024-08-24T19:07:05.000Z",
-        "updated": "2024-08-25 18:52:31",
+        "date": "2024-08-25 15:05:03",
+        "updated": "2024-08-25 19:31:34",
         "author": "gaoyanchen",
-        "description": "---title: cloudflareddate: 2024-8-24 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---ls /etc/cloudflared/  # ...",
-        "tags": "笔记",
-        "thumbnail": "https://avatars.githubusercontent.com/u/74996459?v=4"
+        "description": "---title: cloudflareddate: 2024-8-24 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---openwrt中使用cloudflared，查看..."
       },
       "catalog": [],
       "realName": "cloudflared",

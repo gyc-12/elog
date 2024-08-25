@@ -1,4 +1,14 @@
-```java
+---
+title: cloudflared
+date: 2024-8-24 19:07:05
+tags: "笔记"
+thumbnail: "https://avatars.githubusercontent.com/u/74996459?v=4"
+---
+openwrt中使用cloudflared，查看已经存在的服务。已经查看日志
+
+## 命令
+
+```shell
 ls /etc/cloudflared/
 
 # 手动运行查看日志
