@@ -51,9 +51,46 @@
       "realName": "lightroom分析学习",
       "relativePath": "/lightroom分析学习.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 183738803,
+      "doc_id": "lcgife06g99g6py8",
+      "updated": 1724579107000,
+      "properties": {
+        "title": "openwrt +cloudflared",
+        "urlname": "lcgife06g99g6py8",
+        "date": "2024-08-24T19:07:05.000Z",
+        "updated": "2024-08-25 17:45:07",
+        "author": "gaoyanchen",
+        "description": "---title: openwrt +cloudflareddate: 2024-8-24 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---ls /etc/cloudfl...",
+        "tags": "笔记",
+        "thumbnail": "https://avatars.githubusercontent.com/u/74996459?v=4"
+      },
+      "catalog": [],
+      "realName": "openwrt +cloudflared",
+      "relativePath": "/openwrt +cloudflared.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "BWidwESdEVj21NIX",
+      "type": "DOC",
+      "title": "openwrt + cloudflared",
+      "url": "lcgife06g99g6py8",
+      "slug": "lcgife06g99g6py8",
+      "id": 183738803,
+      "doc_id": 183738803,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "NuBpvOjlb5qiCTi9",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "NuBpvOjlb5qiCTi9",
       "type": "DOC",
@@ -66,7 +103,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "BWidwESdEVj21NIX",
       "sibling_uuid": "G0d33im2B4fDvgSZ",
       "child_uuid": "",
       "parent_uuid": "",
