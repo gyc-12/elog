@@ -55,20 +55,20 @@
     {
       "id": 183738803,
       "doc_id": "lcgife06g99g6py8",
-      "updated": 1724579107000,
+      "updated": 1724583151000,
       "properties": {
-        "title": "openwrt +cloudflared",
+        "title": "cloudflared",
         "urlname": "lcgife06g99g6py8",
         "date": "2024-08-24T19:07:05.000Z",
-        "updated": "2024-08-25 17:45:07",
+        "updated": "2024-08-25 18:52:31",
         "author": "gaoyanchen",
-        "description": "---title: openwrt +cloudflareddate: 2024-8-24 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---ls /etc/cloudfl...",
+        "description": "---title: cloudflareddate: 2024-8-24 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---ls /etc/cloudflared/  # ...",
         "tags": "笔记",
         "thumbnail": "https://avatars.githubusercontent.com/u/74996459?v=4"
       },
       "catalog": [],
-      "realName": "openwrt +cloudflared",
-      "relativePath": "/openwrt +cloudflared.md",
+      "realName": "cloudflared",
+      "relativePath": "/cloudflared.md",
       "docPath": "./docs"
     }
   ],
@@ -76,7 +76,7 @@
     {
       "uuid": "BWidwESdEVj21NIX",
       "type": "DOC",
-      "title": "openwrt + cloudflared",
+      "title": "cloudflared",
       "url": "lcgife06g99g6py8",
       "slug": "lcgife06g99g6py8",
       "id": 183738803,
