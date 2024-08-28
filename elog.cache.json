@@ -68,9 +68,45 @@
       "realName": "cloudflared",
       "relativePath": "/cloudflared.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 184203813,
+      "doc_id": "aoh9940vaaiq0uam",
+      "updated": 1724838403000,
+      "properties": {
+        "title": "openwrt 部署 Alist",
+        "urlname": "aoh9940vaaiq0uam",
+        "date": "2024-08-28 17:36:26",
+        "updated": "2024-08-28 17:46:43",
+        "author": "gaoyanchen",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1724837906225-885e1aad-0bf4-4ecb-9045-72e0e2f0e9c3.png",
+        "description": "---title: openwrt 部署 Alistdate: 2024-8-24 19:07:05tags: \"笔记\"thumbnail: \"https://alist.nn.ci/logo.svg\"---openwrt中使用alist，设备为斐讯的 n1盒子。#下载对应架构的安装包 wge..."
+      },
+      "catalog": [],
+      "realName": "openwrt 部署 Alist",
+      "relativePath": "/openwrt 部署 Alist.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "epeGFamJC06CKNFE",
+      "type": "DOC",
+      "title": "openwrt 部署 Alist",
+      "url": "aoh9940vaaiq0uam",
+      "slug": "aoh9940vaaiq0uam",
+      "id": 184203813,
+      "doc_id": 184203813,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "BWidwESdEVj21NIX",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "BWidwESdEVj21NIX",
       "type": "DOC",
@@ -83,7 +119,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "epeGFamJC06CKNFE",
       "sibling_uuid": "NuBpvOjlb5qiCTi9",
       "child_uuid": "",
       "parent_uuid": "",
