@@ -86,9 +86,44 @@
       "realName": "openwrt 部署 Alist",
       "relativePath": "/openwrt 部署 Alist.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 184280236,
+      "doc_id": "cgf9oqr9dufp9bnh",
+      "updated": 1724894682000,
+      "properties": {
+        "title": "黑苹果笔记",
+        "urlname": "cgf9oqr9dufp9bnh",
+        "date": "2024-08-29 09:07:48",
+        "updated": "2024-08-29 09:24:42",
+        "author": "gaoyanchen",
+        "description": "---title: 黑苹果笔记date: 2024-8-29 19:07:05tags: \"笔记\"thumbnail: \"https://alist.nn.ci/logo.svg\"---设备为联想 yoga c940 i7 。-gux_no_idle -disablegfxfirmware r..."
+      },
+      "catalog": [],
+      "realName": "黑苹果笔记",
+      "relativePath": "/黑苹果笔记.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "UqK1kQlFaiC5owj6",
+      "type": "DOC",
+      "title": "黑苹果笔记",
+      "url": "cgf9oqr9dufp9bnh",
+      "slug": "cgf9oqr9dufp9bnh",
+      "id": 184280236,
+      "doc_id": 184280236,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "epeGFamJC06CKNFE",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "epeGFamJC06CKNFE",
       "type": "DOC",
@@ -101,7 +136,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "UqK1kQlFaiC5owj6",
       "sibling_uuid": "BWidwESdEVj21NIX",
       "child_uuid": "",
       "parent_uuid": "",
