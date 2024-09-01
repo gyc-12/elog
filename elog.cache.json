@@ -104,9 +104,45 @@
       "realName": "黑苹果笔记",
       "relativePath": "/黑苹果笔记.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 184669541,
+      "doc_id": "yhbfqkgmyq8zss3v",
+      "updated": 1725154053000,
+      "properties": {
+        "title": "azure学生包笔记",
+        "urlname": "yhbfqkgmyq8zss3v",
+        "date": "2024-09-01 09:23:39",
+        "updated": "2024-09-01 09:27:33",
+        "author": "gaoyanchen",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725153940132-f26014a9-975e-4dd1-a8ec-e94c80b9c058.png",
+        "description": "---title: azure学生包笔记date: 2024-8-29 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_az..."
+      },
+      "catalog": [],
+      "realName": "azure学生包笔记",
+      "relativePath": "/azure学生包笔记.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "AUrPj8PK0KyxbszD",
+      "type": "DOC",
+      "title": "azure学生包笔记",
+      "url": "yhbfqkgmyq8zss3v",
+      "slug": "yhbfqkgmyq8zss3v",
+      "id": 184669541,
+      "doc_id": 184669541,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "UqK1kQlFaiC5owj6",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "UqK1kQlFaiC5owj6",
       "type": "DOC",
@@ -119,7 +155,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "AUrPj8PK0KyxbszD",
       "sibling_uuid": "epeGFamJC06CKNFE",
       "child_uuid": "",
       "parent_uuid": "",
