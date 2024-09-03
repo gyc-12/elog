@@ -122,9 +122,45 @@
       "realName": "azure学生包笔记",
       "relativePath": "/azure学生包笔记.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 185012812,
+      "doc_id": "vupx8xh9ylpb64k5",
+      "updated": 1725354561000,
+      "properties": {
+        "title": "serv00部署override",
+        "urlname": "vupx8xh9ylpb64k5",
+        "date": "2024-09-03 17:06:49",
+        "updated": "2024-09-03 17:09:21",
+        "author": "gaoyanchen",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725354485109-a1e7f0d9-387c-42da-afe9-6e7677b05e2e.png",
+        "description": "---title: serv00部署overridedate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---首先要编译一个freebsd能用的override步..."
+      },
+      "catalog": [],
+      "realName": "serv00部署override",
+      "relativePath": "/serv00部署override.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "OjkhclVUVT2Hd54j",
+      "type": "DOC",
+      "title": "serv00部署override",
+      "url": "vupx8xh9ylpb64k5",
+      "slug": "vupx8xh9ylpb64k5",
+      "id": 185012812,
+      "doc_id": 185012812,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "AUrPj8PK0KyxbszD",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "AUrPj8PK0KyxbszD",
       "type": "DOC",
@@ -137,7 +173,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "OjkhclVUVT2Hd54j",
       "sibling_uuid": "UqK1kQlFaiC5owj6",
       "child_uuid": "",
       "parent_uuid": "",
