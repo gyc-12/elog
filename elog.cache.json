@@ -140,9 +140,44 @@
       "realName": "serv00部署override",
       "relativePath": "/serv00部署override.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 185100803,
+      "doc_id": "bch4f1d7a20lccoz",
+      "updated": 1725414623000,
+      "properties": {
+        "title": "macos insert_lib命令",
+        "urlname": "bch4f1d7a20lccoz",
+        "date": "2024-09-04 09:48:12",
+        "updated": "2024-09-04 09:50:23",
+        "author": "gaoyanchen",
+        "description": "---title: macos insert_lib命令date: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---macos insert_lib命令#首先查看原..."
+      },
+      "catalog": [],
+      "realName": "macos insert_lib命令",
+      "relativePath": "/macos insert_lib命令.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "hTDh5-Mp3-1oOwlg",
+      "type": "DOC",
+      "title": "macos insert_lib命令",
+      "url": "bch4f1d7a20lccoz",
+      "slug": "bch4f1d7a20lccoz",
+      "id": 185100803,
+      "doc_id": 185100803,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "OjkhclVUVT2Hd54j",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "OjkhclVUVT2Hd54j",
       "type": "DOC",
@@ -155,7 +190,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "hTDh5-Mp3-1oOwlg",
       "sibling_uuid": "AUrPj8PK0KyxbszD",
       "child_uuid": "",
       "parent_uuid": "",
