@@ -126,15 +126,17 @@
     {
       "id": 185012812,
       "doc_id": "vupx8xh9ylpb64k5",
-      "updated": 1725354561000,
+      "updated": 1725458473000,
       "properties": {
         "title": "serv00部署override",
         "urlname": "vupx8xh9ylpb64k5",
-        "date": "2024-09-03 17:06:49",
-        "updated": "2024-09-03 17:09:21",
+        "date": "2024-09-03T19:07:05.000Z",
+        "updated": "2024-09-04 22:01:13",
         "author": "gaoyanchen",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725354485109-a1e7f0d9-387c-42da-afe9-6e7677b05e2e.png",
-        "description": "---title: serv00部署overridedate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---首先要编译一个freebsd能用的override步..."
+        "description": "---title: serv00部署overridedate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---首先要编译一个freebsd能用的override步...",
+        "tags": "笔记",
+        "thumbnail": "https://www.serv00.com/static/ct8/img/logo.jpg"
       },
       "catalog": [],
       "realName": "serv00部署override",
@@ -144,14 +146,16 @@
     {
       "id": 185100803,
       "doc_id": "bch4f1d7a20lccoz",
-      "updated": 1725414623000,
+      "updated": 1725458501000,
       "properties": {
         "title": "macos insert_lib命令",
         "urlname": "bch4f1d7a20lccoz",
-        "date": "2024-09-04 09:48:12",
-        "updated": "2024-09-04 09:50:23",
+        "date": "2024-09-03T19:07:05.000Z",
+        "updated": "2024-09-04 22:01:41",
         "author": "gaoyanchen",
-        "description": "---title: macos insert_lib命令date: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---macos insert_lib命令#首先查看原..."
+        "description": "---title: macos insert_lib命令date: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---macos insert_lib命令#首先查看原...",
+        "tags": "笔记",
+        "thumbnail": "https://www.serv00.com/static/ct8/img/logo.jpg"
       },
       "catalog": [],
       "realName": "macos insert_lib命令",
@@ -161,15 +165,17 @@
     {
       "id": 185193062,
       "doc_id": "uy4io2i6v45gfqy6",
-      "updated": 1725457251000,
+      "updated": 1725458581000,
       "properties": {
         "title": "frp安装在阿里云ECS",
         "urlname": "uy4io2i6v45gfqy6",
-        "date": "2024-09-04 18:58:19",
-        "updated": "2024-09-04 21:40:51",
+        "date": "2024-09-03T19:07:05.000Z",
+        "updated": "2024-09-04 22:03:01",
         "author": "gaoyanchen",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725457086932-ae4d956a-ee20-4e66-af03-68027e8d04ab.png",
-        "description": "---title: frp安装在阿里云ECSdate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---frp安装在阿里云ECS-Alpine要让frps在Alpi..."
+        "description": "---title: frp安装在阿里云ECSdate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---frp安装在阿里云ECS-Alpine要让frps在Alpi...",
+        "tags": "笔记",
+        "thumbnail": "https://www.serv00.com/static/ct8/img/logo.jpg"
       },
       "catalog": [],
       "realName": "frp安装在阿里云ECS",

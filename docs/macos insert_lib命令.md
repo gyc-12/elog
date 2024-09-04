@@ -1,10 +1,3 @@
----  
-title: macos insert_lib命令  
-date: 2024-9-3 19:07:05  
-tags: "笔记"  
-thumbnail: "https://www.serv00.com/static/ct8/img/logo.jpg"  
----
-
 <font style="color:rgb(34, 34, 34);">macos insert_lib命令</font>
 
 <font style="color:rgb(34, 34, 34);"></font>

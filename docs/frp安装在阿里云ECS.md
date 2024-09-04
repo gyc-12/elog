@@ -1,10 +1,3 @@
----  
-title: <font style="color:rgb(36, 41, 46);">frp</font>安装在阿里云ECS  
-date: 2024-9-3 19:07:05  
-tags: "笔记"  
-thumbnail: "https://www.serv00.com/static/ct8/img/logo.jpg"  
----
-
 <font style="color:rgb(36, 41, 46);">frp</font>安装在阿里云ECS-Alpine
 
 
