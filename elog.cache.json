@@ -126,15 +126,15 @@
     {
       "id": 185012812,
       "doc_id": "vupx8xh9ylpb64k5",
-      "updated": 1725458964000,
+      "updated": 1725459057000,
       "properties": {
         "title": "serv00部署override",
         "urlname": "vupx8xh9ylpb64k5",
         "date": "2024-09-03T19:07:05.000Z",
-        "updated": "2024-09-04 22:09:24",
+        "updated": "2024-09-04 22:10:57",
         "author": "gaoyanchen",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725354485109-a1e7f0d9-387c-42da-afe9-6e7677b05e2e.png",
-        "description": "---title: serv00部署overridedate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---首先要编译一个freebsd能用的ove...",
+        "description": "---title: serv00部署overridedate: 2024-9-03 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---首先要编译一个freebsd能用的ov...",
         "tags": "笔记",
         "thumbnail": "https://avatars.githubusercontent.com/u/74996459?v=4"
       },
@@ -146,14 +146,14 @@
     {
       "id": 185100803,
       "doc_id": "bch4f1d7a20lccoz",
-      "updated": 1725458981000,
+      "updated": 1725459043000,
       "properties": {
         "title": "macos insert_lib命令",
         "urlname": "bch4f1d7a20lccoz",
         "date": "2024-09-03T19:07:05.000Z",
-        "updated": "2024-09-04 22:09:41",
+        "updated": "2024-09-04 22:10:43",
         "author": "gaoyanchen",
-        "description": "---title: macos insert_lib命令date: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---macos insert_lib命令...",
+        "description": "---title: macos insert_lib命令date: 2024-9-03 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---macos insert_lib命...",
         "tags": "笔记",
         "thumbnail": "https://avatars.githubusercontent.com/u/74996459?v=4"
       },
@@ -165,15 +165,15 @@
     {
       "id": 185193062,
       "doc_id": "uy4io2i6v45gfqy6",
-      "updated": 1725458827000,
+      "updated": 1725459067000,
       "properties": {
         "title": "frp安装在阿里云ECS",
         "urlname": "uy4io2i6v45gfqy6",
         "date": "2024-09-03T19:07:05.000Z",
-        "updated": "2024-09-04 22:07:07",
+        "updated": "2024-09-04 22:11:07",
         "author": "gaoyanchen",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725457086932-ae4d956a-ee20-4e66-af03-68027e8d04ab.png",
-        "description": "---title: frp安装在阿里云ECSdate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source=...",
+        "description": "---title: frp安装在阿里云ECSdate: 2024-9-03 19:07:05tags: \"笔记\"thumbnail: \"https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source...",
         "tags": "笔记",
         "thumbnail": "https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source=172ae18b&biz_tag=Post"
       },
