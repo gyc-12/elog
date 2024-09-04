@@ -126,17 +126,17 @@
     {
       "id": 185012812,
       "doc_id": "vupx8xh9ylpb64k5",
-      "updated": 1725458473000,
+      "updated": 1725458964000,
       "properties": {
         "title": "serv00部署override",
         "urlname": "vupx8xh9ylpb64k5",
         "date": "2024-09-03T19:07:05.000Z",
-        "updated": "2024-09-04 22:01:13",
+        "updated": "2024-09-04 22:09:24",
         "author": "gaoyanchen",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725354485109-a1e7f0d9-387c-42da-afe9-6e7677b05e2e.png",
-        "description": "---title: serv00部署overridedate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---首先要编译一个freebsd能用的override步...",
+        "description": "---title: serv00部署overridedate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---首先要编译一个freebsd能用的ove...",
         "tags": "笔记",
-        "thumbnail": "https://www.serv00.com/static/ct8/img/logo.jpg"
+        "thumbnail": "https://avatars.githubusercontent.com/u/74996459?v=4"
       },
       "catalog": [],
       "realName": "serv00部署override",
@@ -146,16 +146,16 @@
     {
       "id": 185100803,
       "doc_id": "bch4f1d7a20lccoz",
-      "updated": 1725458501000,
+      "updated": 1725458981000,
       "properties": {
         "title": "macos insert_lib命令",
         "urlname": "bch4f1d7a20lccoz",
         "date": "2024-09-03T19:07:05.000Z",
-        "updated": "2024-09-04 22:01:41",
+        "updated": "2024-09-04 22:09:41",
         "author": "gaoyanchen",
-        "description": "---title: macos insert_lib命令date: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---macos insert_lib命令#首先查看原...",
+        "description": "---title: macos insert_lib命令date: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---macos insert_lib命令...",
         "tags": "笔记",
-        "thumbnail": "https://www.serv00.com/static/ct8/img/logo.jpg"
+        "thumbnail": "https://avatars.githubusercontent.com/u/74996459?v=4"
       },
       "catalog": [],
       "realName": "macos insert_lib命令",
