@@ -157,9 +157,44 @@
       "realName": "macos insert_lib命令",
       "relativePath": "/macos insert_lib命令.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 185193062,
+      "doc_id": "uy4io2i6v45gfqy6",
+      "updated": 1725447602000,
+      "properties": {
+        "title": "frp安装在阿里云ECS",
+        "urlname": "uy4io2i6v45gfqy6",
+        "date": "2024-09-04 18:58:19",
+        "updated": "2024-09-04 19:00:02",
+        "author": "gaoyanchen",
+        "description": "---title: frp安装在阿里云ECSdate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---frp安装在阿里云ECS服务端 - frps1. 下载程序首..."
+      },
+      "catalog": [],
+      "realName": "frp安装在阿里云ECS",
+      "relativePath": "/frp安装在阿里云ECS.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "2PwtYn_IahYHWGSw",
+      "type": "DOC",
+      "title": "frp安装在阿里云ECS",
+      "url": "uy4io2i6v45gfqy6",
+      "slug": "uy4io2i6v45gfqy6",
+      "id": 185193062,
+      "doc_id": 185193062,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "hTDh5-Mp3-1oOwlg",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "hTDh5-Mp3-1oOwlg",
       "type": "DOC",
@@ -172,7 +207,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "2PwtYn_IahYHWGSw",
       "sibling_uuid": "OjkhclVUVT2Hd54j",
       "child_uuid": "",
       "parent_uuid": "",
