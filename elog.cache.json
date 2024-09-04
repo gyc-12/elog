@@ -161,14 +161,15 @@
     {
       "id": 185193062,
       "doc_id": "uy4io2i6v45gfqy6",
-      "updated": 1725447602000,
+      "updated": 1725457251000,
       "properties": {
         "title": "frp安装在阿里云ECS",
         "urlname": "uy4io2i6v45gfqy6",
         "date": "2024-09-04 18:58:19",
-        "updated": "2024-09-04 19:00:02",
+        "updated": "2024-09-04 21:40:51",
         "author": "gaoyanchen",
-        "description": "---title: frp安装在阿里云ECSdate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---frp安装在阿里云ECS服务端 - frps1. 下载程序首..."
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725457086932-ae4d956a-ee20-4e66-af03-68027e8d04ab.png",
+        "description": "---title: frp安装在阿里云ECSdate: 2024-9-3 19:07:05tags: \"笔记\"thumbnail: \"https://www.serv00.com/static/ct8/img/logo.jpg\"---frp安装在阿里云ECS-Alpine要让frps在Alpi..."
       },
       "catalog": [],
       "realName": "frp安装在阿里云ECS",

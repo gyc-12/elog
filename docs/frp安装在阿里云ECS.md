@@ -5,7 +5,85 @@ tags: "笔记"
 thumbnail: "https://www.serv00.com/static/ct8/img/logo.jpg"  
 ---
 
-<font style="color:rgb(36, 41, 46);">frp</font>安装在阿里云ECS
+<font style="color:rgb(36, 41, 46);">frp</font>安装在阿里云ECS-Alpine
+
+
+
+要让frps在Alpine系统上在后台运行并开机自动启动,你可以按照以下步骤操作:
+
+1. 创建一个systemd服务文件:
+
+```bash
+doas vi /etc/init.d/frps
+```
+
+1. 在文件中添加以下内容:
+
+```shell
+#!/sbin/openrc-run
+
+name="frps"
+description="frp server daemon"
+command="/path/of/frps"
+command_args="-c /path/of/frps.toml"
+pidfile="/run/${RC_SVCNAME}.pid"
+command_background="yes"
+start_stop_daemon_args="--make-pidfile --user nobody"
+
+depend() {
+    need net
+    after firewall
+}
+```
+
+请确保将`/path/to/frps`和`/path/to/frps.toml`替换为实际的路径。
+
+1. 给服务文件添加执行权限:
+
+```bash
+doas chmod +x /etc/init.d/frps
+```
+
+1. 添加服务到开机启动:
+
+```bash
+doas rc-update add frps default
+```
+
+1. 启动服务:
+
+```bash
+doas rc-service frps start
+```
+
+现在,frps将在后台运行,并在系统启动时自动启动。你可以使用以下命令来管理服务:
+
++ 启动: `doas rc-service frps start`
++ 停止: `doas rc-service frps stop`
++ 重启: `doas rc-service frps restart`
++ 查看状态: `doas rc-service frps status`
+
+这样设置后,frps就会在后台运行,并且在系统重启后自动启动。
+
+
+
+## 我的配置文件
+```bash
+bindPort = 7000
+
+# 配置 frp dashboard
+webServer.addr = "0.0.0.0"
+webServer.port = 7500
+webServer.user = "admin"
+webServer.password = "pass"
+
+# 配置 token 认证，frpc 客户端也需指定一样的token
+auth.method = "token"
+auth.token = "pass"
+```
+
+### frpc.toml由openwrt的frp的web应用很容易操作
+![](https://raw.githubusercontent.com/gyc-12/images/master/f1e45f0f622c9b7ed400aac19649e64a.png)
 
 ## <font style="color:rgb(36, 41, 46);">服务端 - frps</font>
 ### <font style="color:rgb(36, 41, 46);">1. 下载程序</font>
@@ -14,9 +92,7 @@ thumbnail: "https://www.serv00.com/static/ct8/img/logo.jpg"
 
 <font style="color:rgb(36, 41, 46);">如何知道 VPS 的处理器架构？在 VPS 上运行这个命令：</font>
 
-```plain
-复制
-1
+```shell
 arch
 ```
 
@@ -25,18 +101,8 @@ arch
 
 <font style="color:rgb(36, 41, 46);">以</font>`<font style="color:rgb(199, 37, 78);">x86_64</font>`<font style="color:rgb(36, 41, 46);">架构举例（目前大多数都应该是这个架构），本文撰写时 frp 最新版是</font>`<font style="color:rgb(199, 37, 78);">v0.18.0</font>`
 
-```plain
-复制
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+```bash
+
 cd /root
 # 下载
 wget --no-check-certificate https://github.com/fatedier/frp/releases/download/v0.18.0/frp_0.18.0_linux_amd64.tar.gz
@@ -51,9 +117,8 @@ chmod +x frps
 
 <font style="color:rgb(36, 41, 46);">然后试着运行一下</font>`<font style="color:rgb(199, 37, 78);">frps</font>`<font style="color:rgb(36, 41, 46);">，看看是否能正常运行</font>
 
-```plain
-复制
-1
+```bash
+
 ./frps --help
 ```
 
@@ -65,7 +130,7 @@ chmod +x frps
 <font style="color:rgb(36, 41, 46);">参考以下配置说明来书写配置文件</font>`<font style="color:rgb(199, 37, 78);">frps.ini</font>`<font style="color:rgb(36, 41, 46);">，你可以先在电脑上打一份草稿  
 </font><font style="color:rgb(36, 41, 46);">此处只解释说明一些必要和常用的配置，如需研究完整配置说明请看目录下的</font>`<font style="color:rgb(199, 37, 78);">frps_full.ini</font>`<font style="color:rgb(36, 41, 46);">，以及参考</font>[<font style="color:rgb(36, 41, 46);">frp中文说明</font>](https://github.com/fatedier/frp/blob/master/README_zh.md)
 
-```plain
+```bash
 
 # 下面这句开头必须要有，表示配置的开始
 [common]
@@ -101,7 +166,7 @@ subdomain_host = example.com
 
 <font style="color:rgb(36, 41, 46);">然后把你的准备好的配置文件内容写入</font>`<font style="color:rgb(199, 37, 78);">frps.ini</font>`
 
-```plain
+```bash
 
 echo "[common]
 bind_port = 7000
@@ -116,7 +181,7 @@ subdomain_host = example.com" > frps.ini
 
 <font style="color:rgb(36, 41, 46);">试着启动一下</font>`<font style="color:rgb(199, 37, 78);">frps</font>`
 
-```plain
+```bash
 
 # 使用 -c 参数指定配置文件
 ./frps -c frps.ini
@@ -130,7 +195,7 @@ subdomain_host = example.com" > frps.ini
 #### <font style="color:rgb(36, 41, 46);">启动</font>
 <font style="color:rgb(36, 41, 46);">直接使用前面的命令行来运行是不行的，因为在关掉 ssh 窗口后程序</font>`<font style="color:rgb(199, 37, 78);">frps</font>`<font style="color:rgb(36, 41, 46);">就会停止运行，因此要使用</font>`<font style="color:rgb(199, 37, 78);">nohup [command] &</font>`<font style="color:rgb(36, 41, 46);">这种操作来使其在后台运行</font>
 
-```plain
+```bash
 
 nohup /root/frp/frps -c /root/frp/frps.ini &
 ```
@@ -140,7 +205,7 @@ nohup /root/frp/frps -c /root/frp/frps.ini &
 #### <font style="color:rgb(36, 41, 46);">停止</font>
 <font style="color:rgb(36, 41, 46);">想停止的话，结束</font>`<font style="color:rgb(199, 37, 78);">frps</font>`<font style="color:rgb(36, 41, 46);">即可</font>
 
-```plain
+```bash
 
 pkill frps
 ```
@@ -156,7 +221,7 @@ pkill frps
 
 ### <font style="color:rgb(36, 41, 46);">书写配置</font>
 #### <font style="color:rgb(36, 41, 46);">基本配置（必须）</font>
-```plain
+```bash
 
 # 下面这句开头必须要有，表示配置的开始
 [common]
@@ -171,7 +236,7 @@ token = 12345678
 #### <font style="color:rgb(36, 41, 46);">TCP/UDP</font>
 <font style="color:rgb(36, 41, 46);">这里以转发 ssh 为例</font>
 
-```plain
+```bash
 
 # 自定义一个配置名称，格式为“[名称]”，放在开头
 [ssh]
@@ -200,7 +265,7 @@ remote_port = 6001
 #### <font style="color:rgb(36, 41, 46);">HTTP(S)</font>
 <font style="color:rgb(36, 41, 46);">以转发路由器设置页面为例</font>
 
-```plain
+```bash
 
 # 自定义一个配置名称，格式为“[名称]”，放在开头
 [router-web]
@@ -242,7 +307,7 @@ host_header_rewrite = dev.yourdomain.com
 ```
 
 #### <font style="color:rgb(36, 41, 46);">TCP/UDP 范围转发</font>
-```plain
+```bash
 
 # 自定义一个配置名称，格式为“[range:名称]”，放在开头
 [range:multi-port]
@@ -264,7 +329,7 @@ remote_port = 16010-16020,16022,16024-16028
 
 <font style="color:rgb(36, 41, 46);">比如将以上示例配置合并之后，看起来应该是这个样子</font>
 
-```plain
+```bash
 
 [common]
 server_addr = 0.0.0.0
