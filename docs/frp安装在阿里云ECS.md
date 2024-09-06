@@ -1,19 +1,14 @@
 ---
-
 title: frp安装在阿里云ECS
-
-date: 2024-9-03 19:07:05
-
-tags: "笔记"
-
-thumbnail: "https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source=172ae18b&biz_tag=Post"
-
-cover:"https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source=172ae18b&biz_tag=Post"
-
+urlname: uy4io2i6v45gfqy6
+date: 2024-09-03T19:07:05.000Z
+updated: '2024-09-06 15:13:24'
+author: gaoyanchen
+description: '---title: frp安装在阿里云ECSdate: 2024-9-03 19:07:05tags: "笔记"thumbnail: "https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source...'
+tags: 笔记
+thumbnail: 'https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source=172ae18b&biz_tag=Post'
+cover: 'https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source=172ae18b&biz_tag=Post'
 ---
-
-
-
 frp安装在阿里云ECS-Alpine
 
 ![](https://raw.githubusercontent.com/gyc-12/images/master/8759aeff4c94442da3a74a36a544a13b.png)
