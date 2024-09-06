@@ -1,3 +1,25 @@
+
+
+
+
+---
+
+title: 如何在 Alpine Linux 上安装 vnstat
+
+date: 2024-9-05 19:07:05
+
+tags: "笔记"
+
+thumbnail: "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
+
+---
+
+
+
+
+
+
+
 转自[How to install vnstat on Alpine Linux - nixCraft (cyberciti.biz)](https://www.cyberciti.biz/faq/how-to-install-vnstat-on-alpine-linux/)。
 
 
@@ -49,7 +71,7 @@ vnstat-doc-2.10-r0
   
 </font><font style="color:rgb(17, 17, 17);">我们还可以在</font><font style="color:rgb(17, 17, 17);"> </font>[<font style="color:rgb(17, 17, 17);">Alpine Linux 中为 vnstat 添加/安装手册页</font>](https://www.cyberciti.biz/faq/howto-adding-installing-man-pages-in-alpine-linux/)<font style="color:rgb(17, 17, 17);">：</font>`<font style="color:red;">#</font><font style="color:red;"> </font><font style="color:rgb(17, 17, 17);">apk add vnstat</font>`<font style="color:rgb(17, 17, 17);">  
 </font>`<font style="color:red;">#</font><font style="color:red;"> </font><font style="color:rgb(17, 17, 17);">apk add vnstat-doc</font>`<font style="color:rgb(17, 17, 17);">  
-</font>![](https://cdn.nlark.com/yuque/0/2024/png/12664646/1725594737559-2e8884aa-34e3-4b8e-b698-5c38c49e6939.png)
+</font>![](https://raw.githubusercontent.com/gyc-12/images/master/efd3c9061e14e4f96ecd59041fa22e49.png)
 
 ### <font style="color:rgb(17, 17, 17);">配置</font>
 <font style="color:rgb(17, 17, 17);">使用 vim 命令或您选择的任何其他编辑器进行编辑：  
