@@ -1,4 +1,20 @@
+---
 
+title: Blogging with Elog
+
+classify: 关于Elog
+
+description: 描述
+
+cover_img: [https://example.com/test.jpg](https://example.com/test.jpg)
+
+tags:
+
+- Blog
+
+- CI/CD
+
+---
 
 # 教程
 <font style="color:rgb(17, 17, 17);">V</font><font style="color:rgb(17, 17, 17);">nStat 是一款适用于服务器和路由器的免费开源应用程序。它是一个基于控制台的网络流量监控器。它保留所选接口的 5 分钟间隔、每小时、每天、每月和每年网络流量的日志。让我们看看如何在 Alpine Linux 服务器上安装 vnStat 以密切关注带宽使用情况。  

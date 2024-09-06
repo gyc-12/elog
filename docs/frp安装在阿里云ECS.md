@@ -1,3 +1,14 @@
+---
+title: frp安装在阿里云ECS
+urlname: uy4io2i6v45gfqy6
+date: 2024-09-03T19:07:05.000Z
+updated: '2024-09-06 14:52:09'
+author: gaoyanchen
+cover: 'https://cdn.nlark.com/yuque/0/2024/png/12664646/1725457086932-ae4d956a-ee20-4e66-af03-68027e8d04ab.png'
+description: '---title: frp安装在阿里云ECSdate: 2024-9-03 19:07:05tags: "笔记"thumbnail: "https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source...'
+tags: 笔记
+thumbnail: 'https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source=172ae18b&biz_tag=Post'
+---
 frp安装在阿里云ECS-Alpine
 
 
