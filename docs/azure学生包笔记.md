@@ -2,14 +2,13 @@
 title: azure学生包笔记
 urlname: yhbfqkgmyq8zss3v
 date: 2024-08-29T19:07:05.000Z
-updated: '2024-09-06 14:56:29'
+updated: '2024-09-06 15:08:48'
 author: gaoyanchen
-cover: 'https://cdn.nlark.com/yuque/0/2024/png/12664646/1725153940132-f26014a9-975e-4dd1-a8ec-e94c80b9c058.png'
 description: '---title: azure学生包笔记date: 2024-8-29 19:07:05tags: "笔记"thumbnail: "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_az...'
 tags: 笔记
 thumbnail: 'https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure'
 ---
- 转自[白嫖微软云（一）：申请Azure学生订阅 - 阿雷的小窝 (leiting2020.top)](https://blog.leiting2020.top/index.php/%e6%8a%80%e6%9c%af%e9%9a%8f%e7%ac%94/vps/631/) 。
+转自[白嫖微软云（一）：申请Azure学生订阅 - 阿雷的小窝 (leiting2020.top)](https://blog.leiting2020.top/index.php/%e6%8a%80%e6%9c%af%e9%9a%8f%e7%ac%94/vps/631/) 。
 
 
 

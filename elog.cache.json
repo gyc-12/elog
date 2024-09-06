@@ -108,14 +108,13 @@
     {
       "id": 184669541,
       "doc_id": "yhbfqkgmyq8zss3v",
-      "updated": 1725605789000,
+      "updated": 1725606528000,
       "properties": {
         "title": "azure学生包笔记",
         "urlname": "yhbfqkgmyq8zss3v",
         "date": "2024-08-29T19:07:05.000Z",
-        "updated": "2024-09-06 14:56:29",
+        "updated": "2024-09-06 15:08:48",
         "author": "gaoyanchen",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725153940132-f26014a9-975e-4dd1-a8ec-e94c80b9c058.png",
         "description": "---title: azure学生包笔记date: 2024-8-29 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_az...",
         "tags": "笔记",
         "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
@@ -167,17 +166,14 @@
     {
       "id": 185193062,
       "doc_id": "uy4io2i6v45gfqy6",
-      "updated": 1725605529000,
+      "updated": 1725606511000,
       "properties": {
         "title": "frp安装在阿里云ECS",
         "urlname": "uy4io2i6v45gfqy6",
-        "date": "2024-09-03T19:07:05.000Z",
-        "updated": "2024-09-06 14:52:09",
+        "date": "2024-09-04 18:58:19",
+        "updated": "2024-09-06 15:08:31",
         "author": "gaoyanchen",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725457086932-ae4d956a-ee20-4e66-af03-68027e8d04ab.png",
-        "description": "---title: frp安装在阿里云ECSdate: 2024-9-03 19:07:05tags: \"笔记\"thumbnail: \"https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source...",
-        "tags": "笔记",
-        "thumbnail": "https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source=172ae18b&biz_tag=Post"
+        "description": "---title: frp安装在阿里云ECSdate: 2024-9-03 19:07:05tags: \"笔记\"thumbnail: \"https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source..."
       },
       "catalog": [],
       "realName": "frp安装在阿里云ECS",
