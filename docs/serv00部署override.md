@@ -1,3 +1,14 @@
+---
+title: serv00部署override
+urlname: vupx8xh9ylpb64k5
+date: 2024-08-29T19:07:05.000Z
+updated: '2024-09-06 14:56:13'
+author: gaoyanchen
+cover: 'https://cdn.nlark.com/yuque/0/2024/png/12664646/1725354485109-a1e7f0d9-387c-42da-afe9-6e7677b05e2e.png'
+description: '---title: serv00部署overridedate: 2024-8-29 19:07:05tags: "笔记"thumbnail: "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_i...'
+tags: 笔记
+thumbnail: 'https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure'
+---
 首先要编译一个freebsd能用的override
 
 ## <font style="color:rgb(34, 34, 34);">步骤如下：</font>
