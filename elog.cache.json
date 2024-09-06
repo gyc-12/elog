@@ -181,9 +181,48 @@
       "realName": "frp安装在阿里云ECS",
       "relativePath": "/frp安装在阿里云ECS.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 185440650,
+      "doc_id": "pbv8k6ycrs2vyiku",
+      "updated": 1725594803000,
+      "properties": {
+        "title": "如何在 Alpine Linux 上安装 vnstat",
+        "urlname": "pbv8k6ycrs2vyiku",
+        "date": "2024-09-05T19:07:05.000Z",
+        "updated": "2024-09-06 11:53:23",
+        "author": "gaoyanchen",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725594669693-546c88ca-b71c-4d06-b4f3-4f7a1e4a3db1.png",
+        "description": "---title: 如何在 Alpine Linux 上安装 vnstatdate: 2024-9-05 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/ac...",
+        "tags": "笔记",
+        "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
+      },
+      "catalog": [],
+      "realName": "如何在 Alpine Linux 上安装 vnstat",
+      "relativePath": "/如何在 Alpine Linux 上安装 vnstat.md",
+      "needUpdate": 1,
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "zJxQLfCQ4fpYIAmk",
+      "type": "DOC",
+      "title": "如何在 Alpine Linux 上安装 vnstat",
+      "url": "pbv8k6ycrs2vyiku",
+      "slug": "pbv8k6ycrs2vyiku",
+      "id": 185440650,
+      "doc_id": 185440650,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "2PwtYn_IahYHWGSw",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "2PwtYn_IahYHWGSw",
       "type": "DOC",
@@ -196,7 +235,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "zJxQLfCQ4fpYIAmk",
       "sibling_uuid": "hTDh5-Mp3-1oOwlg",
       "child_uuid": "",
       "parent_uuid": "",
