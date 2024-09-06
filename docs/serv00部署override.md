@@ -1,6 +1,4 @@
-<font style="color:rgb(34, 34, 34);"></font>
-
-<font style="color:rgb(34, 34, 34);">首先要编译一个freebsd能用的override</font>
+首先要编译一个freebsd能用的override
 
 ## <font style="color:rgb(34, 34, 34);">步骤如下：</font>
 <font style="color:rgb(34, 34, 34);">直接贴ChatGPT的回答：</font>

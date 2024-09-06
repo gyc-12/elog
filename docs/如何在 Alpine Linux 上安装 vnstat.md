@@ -1,25 +1,3 @@
-
-
-
-
----
-
-title: 如何在 Alpine Linux 上安装 vnstat
-
-date: 2024-9-05 19:07:05
-
-tags: "笔记"
-
-thumbnail: "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
-
----
-
-
-
-
-
-
-
 转自[How to install vnstat on Alpine Linux - nixCraft (cyberciti.biz)](https://www.cyberciti.biz/faq/how-to-install-vnstat-on-alpine-linux/)。
 
 

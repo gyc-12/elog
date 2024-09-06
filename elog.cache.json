@@ -126,12 +126,12 @@
     {
       "id": 185012812,
       "doc_id": "vupx8xh9ylpb64k5",
-      "updated": 1725459057000,
+      "updated": 1725601729000,
       "properties": {
         "title": "serv00部署override",
         "urlname": "vupx8xh9ylpb64k5",
         "date": "2024-09-03T19:07:05.000Z",
-        "updated": "2024-09-04 22:10:57",
+        "updated": "2024-09-06 13:48:49",
         "author": "gaoyanchen",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725354485109-a1e7f0d9-387c-42da-afe9-6e7677b05e2e.png",
         "description": "---title: serv00部署overridedate: 2024-9-03 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---首先要编译一个freebsd能用的ov...",
@@ -146,12 +146,12 @@
     {
       "id": 185100803,
       "doc_id": "bch4f1d7a20lccoz",
-      "updated": 1725459043000,
+      "updated": 1725601702000,
       "properties": {
         "title": "macos insert_lib命令",
         "urlname": "bch4f1d7a20lccoz",
         "date": "2024-09-03T19:07:05.000Z",
-        "updated": "2024-09-04 22:10:43",
+        "updated": "2024-09-06 13:48:22",
         "author": "gaoyanchen",
         "description": "---title: macos insert_lib命令date: 2024-9-03 19:07:05tags: \"笔记\"thumbnail: \"https://avatars.githubusercontent.com/u/74996459?v=4\"---macos insert_lib命...",
         "tags": "笔记",
@@ -165,12 +165,12 @@
     {
       "id": 185193062,
       "doc_id": "uy4io2i6v45gfqy6",
-      "updated": 1725459067000,
+      "updated": 1725601615000,
       "properties": {
         "title": "frp安装在阿里云ECS",
         "urlname": "uy4io2i6v45gfqy6",
         "date": "2024-09-03T19:07:05.000Z",
-        "updated": "2024-09-04 22:11:07",
+        "updated": "2024-09-06 13:46:55",
         "author": "gaoyanchen",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725457086932-ae4d956a-ee20-4e66-af03-68027e8d04ab.png",
         "description": "---title: frp安装在阿里云ECSdate: 2024-9-03 19:07:05tags: \"笔记\"thumbnail: \"https://picx.zhimg.com/70/v2-11cd1f933bf5711475c7e2d1b714dd2c_1440w.avis?source...",
@@ -185,15 +185,17 @@
     {
       "id": 185440650,
       "doc_id": "pbv8k6ycrs2vyiku",
-      "updated": 1725595490000,
+      "updated": 1725601681000,
       "properties": {
         "title": "如何在 Alpine Linux 上安装 vnstat",
         "urlname": "pbv8k6ycrs2vyiku",
-        "date": "2024-09-06 11:50:59",
-        "updated": "2024-09-06 12:04:50",
+        "date": "2024-09-05T19:07:05.000Z",
+        "updated": "2024-09-06 13:48:01",
         "author": "gaoyanchen",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725594669693-546c88ca-b71c-4d06-b4f3-4f7a1e4a3db1.png",
-        "description": "---title: 如何在 Alpine Linux 上安装 vnstatdate: 2024-9-05 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/ac..."
+        "description": "---title: 如何在 Alpine Linux 上安装 vnstatdate: 2024-9-05 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/ac...",
+        "tags": "笔记",
+        "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
       },
       "catalog": [],
       "realName": "如何在 Alpine Linux 上安装 vnstat",
