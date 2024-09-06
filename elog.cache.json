@@ -185,15 +185,15 @@
     {
       "id": 185440650,
       "doc_id": "pbv8k6ycrs2vyiku",
-      "updated": 1725602212000,
+      "updated": 1725602874000,
       "properties": {
         "title": "如何在 Alpine Linux 上安装 vnstat",
         "urlname": "pbv8k6ycrs2vyiku",
         "date": "2024-09-05T19:07:05.000Z",
-        "updated": "2024-09-06 13:56:52",
+        "updated": "2024-09-06 14:07:54",
         "author": "gaoyanchen",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/12664646/1725594669693-546c88ca-b71c-4d06-b4f3-4f7a1e4a3db1.png",
-        "description": "---title: 如何在 Alpine Linux 上安装 vnstatdate: 2024-9-05 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/ac...",
+        "description": "---title: 如何在 Alpine Linux 上安装 vnstatdate: 2024-09-05 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/a...",
         "tags": "笔记",
         "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
       },
