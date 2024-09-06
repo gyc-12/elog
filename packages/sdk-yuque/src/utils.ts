@@ -28,7 +28,7 @@ export const getProps = (page: DocUnite, isPwd?: boolean): GetProps => {
   }
   // 封面
   if (page.cover) {
-    properties.cover = page.cover
+    // properties.cover = page.cover
   }
   // 标签
   if (page.tags?.length) {
