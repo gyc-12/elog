@@ -42,7 +42,7 @@ module.exports = {
     local: {
       outputDir: './docs',
       filename: 'title',
-      format: 'markdown',
+      format: 'matter-markdown',
     },
     halo: {
       endpoint: process.env.HALO_ENDPOINT,
