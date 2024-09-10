@@ -204,12 +204,12 @@
     {
       "id": 185553045,
       "doc_id": "ripmwko3gpdysa1r",
-      "updated": 1725677472000,
+      "updated": 1725848130000,
       "properties": {
         "title": "CyMusic源分享",
         "urlname": "ripmwko3gpdysa1r",
         "date": "2024-09-07T19:07:05.000Z",
-        "updated": "2024-09-07 10:51:12",
+        "updated": "2024-09-09 10:15:30",
         "author": "gaoyanchen",
         "description": "---title: CyMusic源分享date: 2024-09-07 19:07:05tags: \"笔记\"thumbnail: \"https://cdn.homecloud.komect.com/gateway/share/oss/15b557e0d25406b90ad79d6344b00...",
         "tags": "笔记",
@@ -219,9 +219,46 @@
       "realName": "CyMusic源分享",
       "relativePath": "/CyMusic源分享.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 185859546,
+      "doc_id": "sbb4v3ordg2vt41b",
+      "updated": 1725947055000,
+      "properties": {
+        "title": "iOS 允许http请求",
+        "urlname": "sbb4v3ordg2vt41b",
+        "date": "2024-09-09T19:07:05.000Z",
+        "updated": "2024-09-10 13:44:15",
+        "author": "gaoyanchen",
+        "description": "---title: iOS 允许http请求date: 2024-09-09 19:07:05tags: \"笔记\"thumbnail: \"https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jp...",
+        "tags": "笔记",
+        "thumbnail": "[https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square_social.jpg](https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square_social.jpg)"
+      },
+      "catalog": [],
+      "realName": "iOS 允许http请求",
+      "relativePath": "/iOS 允许http请求.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "g64ZkzB1uP3Yv3Zq",
+      "type": "DOC",
+      "title": "iOS 允许http请求",
+      "url": "sbb4v3ordg2vt41b",
+      "slug": "sbb4v3ordg2vt41b",
+      "id": 185859546,
+      "doc_id": 185859546,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "hmq72DHqn3MpyId7",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "hmq72DHqn3MpyId7",
       "type": "DOC",
@@ -234,7 +271,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "g64ZkzB1uP3Yv3Zq",
       "sibling_uuid": "zJxQLfCQ4fpYIAmk",
       "child_uuid": "",
       "parent_uuid": "",

@@ -2,7 +2,7 @@
 title: CyMusic源分享
 urlname: ripmwko3gpdysa1r
 date: 2024-09-07T19:07:05.000Z
-updated: '2024-09-07 10:51:12'
+updated: '2024-09-09 10:15:30'
 author: gaoyanchen
 description: '---title: CyMusic源分享date: 2024-09-07 19:07:05tags: "笔记"thumbnail: "https://cdn.homecloud.komect.com/gateway/share/oss/15b557e0d25406b90ad79d6344b00...'
 tags: 笔记
@@ -14,7 +14,7 @@ thumbnail: 'https://cdn.homecloud.komect.com/gateway/share/oss/15b557e0d25406b90
 
 音源：
 
-[点击下载ikun-music-source-cymusic.js](https://cdn.homecloud.komect.com/gateway/share/oss/15b557e0d25406b90ad79d6344b001290cc3d3277b113362c7f7cea8717aca0e116b789fbda156c6806750226f9c5c5552737a49c6ee91b18310e5488a24303cc1f35078e93f0e004e05430551c1b99a194e02f826d737e1c1b8386d8bd03dd48d51badc7facac9b26bcd9847625a9959f47754fbd38f83c31bf332b680c0b8cded53bc83ed6534d06250aac6ebbe386717a412ea717178112f90dc89e6a5f1b)
+[点击下载ikun-music-source-cymusic.js](https://cdn.homecloud.komect.com/gateway/share/oss/15b557e0d25406b90ad79d6344b00129aac15c9ca2372ec71e9ae0cd2a3d6f0df6f5da077887a23842c4755a55e6005e75d1d3af0c2b8ed075f4ae02dc3808e985531de16136b7af3c44ef0674c1d6abac49ac889aa173b06a8a3556d197bff88c0e24326eb1b65ecdf3af0eb9f75429741242008fc69dbde6e37c442dcf1acb6196c39e17463fd253ede0b23a50e6239b17a66e1fd556d86ba47d3f8851771d)
 
 搜集自网络，存在不稳定性，可以关注脚本内注释的作者信息，追踪原作者的更新，也可能存在会员歌曲无法播放的情况。请勿用于商业用途，侵删。
 
