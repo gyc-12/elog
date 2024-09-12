@@ -2,7 +2,7 @@
 title: GitHub-Models-使用指南
 urlname: ugf4382gus28ap4k
 date: 2024-09-12T19:07:05.000Z
-updated: '2024-09-12 15:03:40'
+updated: '2024-09-12 15:09:44'
 author: gaoyanchen
 description: '---title: GitHub-Models-使用指南date: 2024-09-12 19:07:05tags: "笔记"thumbnail: "https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-l...'
 tags: 笔记
@@ -14,8 +14,8 @@ thumbnail: 'https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/App
 ## 二、模型调用
 <font style="color:rgb(44, 62, 80);">GitHub Models提供了Playground 进行调试，当然也可以直接使用API。例如使用cURL请求:</font>
 
-| ```plain 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 ```  | ```plain curl -X POST "https://models.inference.ai.azure.com/chat/completions" \     -H "Content-Type: application/json" \     -H "Authorization: Bearer $GITHUB_TOKEN" \     -d '{         "messages": [             {                 "role": "system",                 "content": "You are a helpful assistant."             },             {                 "role": "user",                 "content": "What is the capital of France?"             }         ],         "model": "gpt-4o"     }'  BASH ```  |
-| --- | --- |
+| ```bash curl -X POST "https://models.inference.ai.azure.com/chat/completions" \     -H "Content-Type: application/json" \     -H "Authorization: Bearer $GITHUB_TOKEN" \     -d '{         "messages": [             {                 "role": "system",                 "content": "You are a helpful assistant."             },             {                 "role": "user",                 "content": "What is the capital of France?"             }         ],         "model": "gpt-4o"     }'  BASH ```  |
+| --- |
 
 
 <font style="color:rgb(44, 62, 80);">调用方式和OpenAI基本一致，只是请求地址从api.openai.com/v1变成了models.inference.ai.azure.com，使用</font>[<font style="color:rgb(44, 62, 80);">GITHUB_TOKEN</font>](https://github.com/settings/tokens)<font style="color:rgb(44, 62, 80);">作为apikey。</font>
@@ -23,8 +23,8 @@ thumbnail: 'https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/App
 ## 三、接入 one-api
 <font style="color:rgb(44, 62, 80);">我喜欢用one-api来进行api管理。但是GitHub Models的请求地址因为少了</font><font style="color:rgb(44, 62, 80);"> </font>`/v1`<font style="color:rgb(44, 62, 80);"> </font><font style="color:rgb(44, 62, 80);">没办法直接接入one-api。这里选择用cloudflare workers做一个接口转发，去除请求地址中的</font>`/v1`<font style="color:rgb(44, 62, 80);">：</font>
 
-| ```plain 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 ```  | ```plain addEventListener('fetch', event => {   event.respondWith(handleRequest(event.request)) })  async function handleRequest(request) {   const url = new URL(request.url)    if (url.pathname.startsWith('/v1')) {     const newUrl = new URL(request.url)     newUrl.hostname = 'models.inference.ai.azure.com'     newUrl.pathname = newUrl.pathname.replace('/v1', '')       const newRequest = new Request(newUrl, {       method: request.method,       headers: request.headers,       body: request.body     })      return fetch(newRequest)   }    return fetch(request) }  JAVASCRIPT ```  |
-| --- | --- |
+| ```bash addEventListener('fetch', event => {   event.respondWith(handleRequest(event.request)) })  async function handleRequest(request) {   const url = new URL(request.url)    if (url.pathname.startsWith('/v1')) {     const newUrl = new URL(request.url)     newUrl.hostname = 'models.inference.ai.azure.com'     newUrl.pathname = newUrl.pathname.replace('/v1', '')       const newRequest = new Request(newUrl, {       method: request.method,       headers: request.headers,       body: request.body     })      return fetch(newRequest)   }    return fetch(request) }  JAVASCRIPT ```  |
+| --- |
 
 
 <font style="color:rgb(44, 62, 80);">使用worker的URL作为API地址，GITHUB_TOKEN作为apikey就可以将GitHub Models接入one-api了。</font>
