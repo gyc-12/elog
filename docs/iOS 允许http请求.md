@@ -2,11 +2,11 @@
 title: iOS 允许http请求
 urlname: sbb4v3ordg2vt41b
 date: 2024-09-09T19:07:05.000Z
-updated: '2024-09-10 13:44:15'
+updated: '2024-09-12 15:03:46'
 author: gaoyanchen
 description: '---title: iOS 允许http请求date: 2024-09-09 19:07:05tags: "笔记"thumbnail: "https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jp...'
 tags: 笔记
-thumbnail: '[https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square_social.jpg](https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square_social.jpg)'
+thumbnail: 'https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square_social.jpg'
 ---
 以下两种情况允许 http 请求
 
