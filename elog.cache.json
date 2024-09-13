@@ -257,9 +257,46 @@
       "realName": "GitHub-Models-使用指南",
       "relativePath": "/GitHub-Models-使用指南.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 186402511,
+      "doc_id": "ddl0xcykgghpfrul",
+      "updated": 1726193832000,
+      "properties": {
+        "title": "苹果签发证书",
+        "urlname": "ddl0xcykgghpfrul",
+        "date": "2024-09-12T19:07:05.000Z",
+        "updated": "2024-09-13 10:17:12",
+        "author": "gaoyanchen",
+        "description": "---title: 苹果签发证书date: 2024-09-12 19:07:05tags: \"笔记\"thumbnail: \"https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.squa...",
+        "tags": "笔记",
+        "thumbnail": "https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square_social.jpg"
+      },
+      "catalog": [],
+      "realName": "苹果签发证书",
+      "relativePath": "/苹果签发证书.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "K5Wbx5HDPoABCBy3",
+      "type": "DOC",
+      "title": "苹果签发证书",
+      "url": "ddl0xcykgghpfrul",
+      "slug": "ddl0xcykgghpfrul",
+      "id": 186402511,
+      "doc_id": 186402511,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "QfJYdPDppjXKtU_p",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "QfJYdPDppjXKtU_p",
       "type": "DOC",
@@ -272,7 +309,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "K5Wbx5HDPoABCBy3",
       "sibling_uuid": "g64ZkzB1uP3Yv3Zq",
       "child_uuid": "",
       "parent_uuid": "",
