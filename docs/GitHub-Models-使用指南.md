@@ -2,11 +2,11 @@
 title: GitHub-Models-使用指南
 urlname: ugf4382gus28ap4k
 date: 2024-09-12T19:07:05.000Z
-updated: '2024-09-12 15:09:44'
+updated: '2024-09-13 21:20:22'
 author: gaoyanchen
-description: '---title: GitHub-Models-使用指南date: 2024-09-12 19:07:05tags: "笔记"thumbnail: "https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-l...'
+description: '---title: GitHub-Models-使用指南date: 2024-09-12 19:07:05tags: "笔记"thumbnail: "https://github.com/images/modules/marketplace/header/light/copilot@2x.pn...'
 tags: 笔记
-thumbnail: 'https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square_social.jpg'
+thumbnail: 'https://github.com/images/modules/marketplace/header/light/copilot@2x.png'
 ---
 ## 一、GitHub Models
 [<font style="color:rgb(44, 62, 80);">GitHub Models</font>](https://github.com/marketplace/models)<font style="color:rgb(44, 62, 80);"> </font><font style="color:rgb(44, 62, 80);">是GitHub最新推出的模型托管服务，提供免费的AI模型供开发者测试。可以使用的模型有 GPT-4o、Phi 3、Llama 3.1等，可以说很全面的了。现在可以申请加入</font>[<font style="color:rgb(44, 62, 80);">waitlist</font>](https://github.com/marketplace/models/waitlist)<font style="color:rgb(44, 62, 80);">，通过后就可以使用这些模型了。</font>
