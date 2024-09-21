@@ -2,7 +2,7 @@
 title: sf笔记
 urlname: zbwytv6yvg4vym0w
 date: 2024-09-13T19:07:05.000Z
-updated: '2024-09-19 22:22:21'
+updated: '2024-09-20 12:43:03'
 author: gaoyanchen
 description: '---title: sf笔记date: 2024-09-13 19:07:05tags: "笔记"thumbnail: "https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square...'
 tags: 笔记
@@ -236,43 +236,33 @@ a) 初始化:
 ### <font style="color:rgb(38, 38, 38);">主题和核心思想</font>
 <font style="color:rgb(38, 38, 38);">该文献综述了水下车辆的智能路径规划技术，重点介绍了传统路径规划方法与人工智能方法在动态非结构化环境中的适应性。文章详细分析了当前应用于水下车辆路径规划的各种算法，并探讨了未来的发展方向。</font>
 
-1
 
-2
 
 ### <font style="color:rgb(38, 38, 38);">关键点和亮点</font>
 **<font style="color:rgb(38, 38, 38);">传统路径规划方法</font>**<font style="color:rgb(38, 38, 38);">：包括图搜索算法、采样算法和势场算法等。这些方法在简单环境中有效，但在复杂动态环境中表现出适应性差的问题。</font>
 
-1. 234
+1. 
 
 **<font style="color:rgb(38, 38, 38);">人工智能方法</font>**<font style="color:rgb(38, 38, 38);">：随着人工智能的快速发展，智能仿生算法、支持向量机和人工神经网络等方法被应用于路径规划。这些方法具有学习能力、适应性和鲁棒性，能够在动态非结构化环境中优化路径。</font>
 
-2. 456
+2. 
 
 **<font style="color:rgb(38, 38, 38);">覆盖路径规划（CRP）技术</font>**<font style="color:rgb(38, 38, 38);">：与从起点到单一目标点的路径规划不同，CRP要求路径能够覆盖所有目标点，并尽量减少路径重复率。该技术在水下探测和搜索任务中应用广泛。</font>
 
-3. 78
+3. 
 
 **<font style="color:rgb(38, 38, 38);">多AUV协作路径规划</font>**<font style="color:rgb(38, 38, 38);">：随着任务复杂度的增加，多AUV协作系统通过协调多个AUV来完成复杂任务。该系统比单一AUV具有更高的效率和灵活性。</font>
 
-4. 910
+4. 
 
 **<font style="color:rgb(38, 38, 38);">未来研究方向</font>**<font style="color:rgb(38, 38, 38);">：包括提高智能路径规划算法的灵活性和鲁棒性、多AUV协作路径规划技术的优化、特定水下环境的优化以及路径规划质量评估标准的改进。</font>
 
-5. 1112
+5. 
 
 ### <font style="color:rgb(38, 38, 38);">逻辑结构</font>
 <font style="color:rgb(38, 38, 38);">文章首先介绍了传统路径规划方法及其在动态非结构化环境中的局限性，接着讨论了人工智能方法的优势和应用。随后，文章探讨了覆盖路径规划技术和多AUV协作路径规划的现状和挑战。最后，文章总结了当前研究的不足，并提出了未来的发展方向。</font>
 
-1
 
-2
-
-4
-
-7
-
-11
 
 <font style="color:rgb(38, 38, 38);">总体而言，该文献提供了水下车辆路径规划技术的全面综述，并为未来的研究提供了有价值的参考。</font>
 
