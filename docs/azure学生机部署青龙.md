@@ -1,10 +1,10 @@
 ---
 title: azure学生机部署青龙
 urlname: owyfttbwv9momh6y
-date: 2024-08-29T19:07:05.000Z
-updated: '2024-09-23 11:54:39'
+date: 2024-09-23T19:07:05.000Z
+updated: '2024-09-23 12:08:51'
 author: gaoyanchen
-description: '---title: azure学生机部署青龙date: 2024-8-29 19:07:05tags: "笔记"thumbnail: "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_...'
+description: '---title: azure学生机部署青龙date: 2024-9-23 19:07:05tags: "笔记"thumbnail: "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_...'
 tags: 笔记
 thumbnail: 'https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure'
 ---

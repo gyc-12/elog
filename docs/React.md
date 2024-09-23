@@ -2,7 +2,7 @@
 title: React
 urlname: tp4wl7vyhn3147p7
 date: 2024-09-13T19:07:05.000Z
-updated: '2024-09-23 11:45:59'
+updated: '2024-09-23 19:23:46'
 author: gaoyanchen
 description: '---title: Reactdate: 2024-09-13 19:07:05tags: "笔记"thumbnail: "https://www.runoob.com/wp-content/uploads/2016/02/react.png"---colocation自动嵌套自动嵌套: 当你...'
 tags: 笔记
@@ -16,4 +16,7 @@ thumbnail: 'https://www.runoob.com/wp-content/uploads/2016/02/react.png'
 + ![](https://raw.githubusercontent.com/gyc-12/images/master/7f983d1bcab00c0c6c648bdf4c14f4c8.png)
 + ![](https://raw.githubusercontent.com/gyc-12/images/master/fb6c6cc9a9ae88ddefd2b3d65188898f.png)
 + ![](https://raw.githubusercontent.com/gyc-12/images/master/34df14fbd008ea1021367ef45c0ffefa.png)
+
+## route groups
+![](https://raw.githubusercontent.com/gyc-12/images/master/239ac73abdc5a988b7244d5d3c449cc4.png)
 
