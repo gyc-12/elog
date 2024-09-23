@@ -337,20 +337,20 @@
     {
       "id": 187620472,
       "doc_id": "owyfttbwv9momh6y",
-      "updated": 1727063193000,
+      "updated": 1727063679000,
       "properties": {
-        "title": "azure学生包笔记",
+        "title": "azure学生机部署青龙",
         "urlname": "owyfttbwv9momh6y",
         "date": "2024-08-29T19:07:05.000Z",
-        "updated": "2024-09-23 11:46:33",
+        "updated": "2024-09-23 11:54:39",
         "author": "gaoyanchen",
-        "description": "---title: azure学生包笔记date: 2024-8-29 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_az...",
+        "description": "---title: azure学生机部署青龙date: 2024-8-29 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_...",
         "tags": "笔记",
         "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
       },
       "catalog": [],
-      "realName": "azure学生包笔记",
-      "relativePath": "/azure学生包笔记.md",
+      "realName": "azure学生机部署青龙",
+      "relativePath": "/azure学生机部署青龙.md",
       "docPath": "./docs"
     }
   ],
