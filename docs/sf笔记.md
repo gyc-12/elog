@@ -2,7 +2,7 @@
 title: sf笔记
 urlname: zbwytv6yvg4vym0w
 date: 2024-09-13T19:07:05.000Z
-updated: '2024-09-24 21:31:28'
+updated: '2024-09-25 12:03:22'
 author: gaoyanchen
 description: '---title: sf笔记date: 2024-09-13 19:07:05tags: "笔记"thumbnail: "https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square...'
 tags: 笔记
@@ -306,12 +306,12 @@ a) 初始化:
 | 4 | 多AUV协作路径规划技术 | 通过协调多个自主水下航行器(AUV)的行动，实现对复杂任务的高效、灵活完成。提高了整体系统的适应性和任务完成能力，是解决大规模或高难度水下任务的关键技术之一。 |
 
 
-
-
-水下无人系统（Underwater Unmanned Systems, UUS）是近年来海洋科技领域快速发展的一项关键技术，它包括了无人潜水器（Unmanned Underwater Vehicles, UUVs）、自主水下航行器（Autonomous Underwater Vehicles, AUVs）、遥控操作水下航行器（Remotely Operated Underwater Vehicles, ROVs）等多种类型。这些系统在海洋探索、资源开发、环境监测、国防安全等领域发挥着日益重要的作用。
-
 ### 背景
-随着全球对海洋资源的依赖增加以及对深海环境认识的需求增长，传统的有人潜水器和科考船在深海作业中面临成本高、效率低、人员安全风险大等挑战。水下无人系统以其长时间作业能力、高机动性、能够到达人难以到达的极端环境等优势，成为解决这些问题的关键技术手段。此外，随着传感器技术、人工智能、大数据分析、水声通信等技术的进步，水下无人系统的智能化水平不断提高，进一步推动了其在各领域的广泛应用。
+水下无人系统（Underwater Unmanned Systems, UUS）是近年来海洋科技领域快速发展的一项关键技术，它包括了无人潜水器（Unmanned Underwater Vehicles, UUVs）、自主水下机器人（Autonomous Underwater Vehicles, AUVs）等多种类型。这些系统在海洋探索、资源开发、环境监测等领域发挥着日益重要的作用。
+
+
+
+随着全球对海洋资源的依赖增加以及对深海环境认识的需求增长，传统的有人潜水器和科考船在深海作业中面临成本高、效率低、人员安全风险大等挑战。水下无人系统能够克服这些困难，成为解决这些问题的关键技术手段。此外，随着传感器技术、人工智能、大数据分析、水声通信等技术的进步，水下无人系统的智能化水平不断提高，进一步推动了其在各领域的广泛应用。
 
 ### 应用
 1. **海洋科学研究**：水下无人系统可以长时间在深海环境中进行生物多样性调查、地质结构勘探、海洋气候监测等，为科学家提供宝贵的数据资料。
@@ -348,7 +348,6 @@ a) 初始化:
 + **<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">多智能体协同</font>**<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">：研究多无人系统之间的协同机制，实现任务分工与资源共享。</font>
 + **<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">避障算法</font>**<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">：开发高效的避障算法，确保无人系统在复杂水下环境中的安全运行。</font>
 + **<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">能源管理与优化</font>**
-+ **<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">能量采集技术</font>**<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">：探索水下能量采集方法，延长无人系统的续航时间。</font>
 + **<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">能量优化算法</font>**<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">：设计智能能源管理策略，优化任务执行中的能耗分配。</font>
 + **<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">低功耗设计</font>**<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">：研究低功耗硬件与算法，提升系统整体能效。</font>
 + **<font style="color:rgb(171, 178, 191);background-color:rgb(33, 37, 43);">通信与网络</font>**
@@ -372,45 +371,48 @@ a) 初始化:
 
 <font style="color:rgb(38, 38, 38);">尊敬的老师和同学们，今天我想向大家介绍我的研究方向：基于人工智能的水下无人系统。</font>
 
-<font style="color:rgb(38, 38, 38);">随着海洋资源开发、海洋科学研究和海洋环境保护的需求日益增长，水下无人系统（特别是自主水下机器人，AUV）在近年来受到了广泛关注。然而，复杂的水下环境给AUV的自主导航、环境感知和任务执行带来了巨大挑战。</font>
+**<font style="color:rgb(38, 38, 38);">随着海洋资源开发、海洋科学研究和海洋环境保护的需求日益增长，水下无人系统（特别是自主水下机器人，AUV）在近年来受到了广泛关注。然而，复杂的水下环境给AUV的自主导航、环境感知和任务执行带来了巨大挑战。</font>**
 
-<font style="color:rgb(38, 38, 38);">目前，水下无人系统面临以下主要挑战：</font>
+**<font style="color:rgb(38, 38, 38);">目前</font>**<font style="color:rgb(38, 38, 38);">，水下无人系统面临以下主要挑战：</font>
 
-+ <font style="color:rgb(38, 38, 38);">复杂多变的水下环境，如低能见度、高压力、强水流等</font>
-+ <font style="color:rgb(38, 38, 38);">定位和导航困难，GPS信号无法穿透水面</font>
-+ <font style="color:rgb(38, 38, 38);">通信受限，数据传输速率低</font>
-+ <font style="color:rgb(38, 38, 38);">能源限制，长时间自主作业困难</font>
-+ <font style="color:rgb(38, 38, 38);">多样化任务需求，如海底勘探、生态监测、水下考古等</font>
++ **<font style="color:rgb(38, 38, 38);">复杂多变的水下环境，如低能见度、高压力、强水流等，影响自主导航的效果</font>**
++ **<font style="color:rgb(38, 38, 38);">定位和导航困难，GPS信号无法穿透水面</font>**
++ **<font style="color:rgb(38, 38, 38);">通信受限，数据传输速率低</font>**
++ **<font style="color:rgb(38, 38, 38);">能源限制，长时间自主作业困难</font>**
++ **<font style="color:rgb(38, 38, 38);">多样化任务需求，如海底勘探、生态监测、水下考古等</font>**
 
-<font style="color:rgb(38, 38, 38);">为了应对这些挑战，研究人员正在积极探索将人工智能技术应用于水下无人系统，以提高其自主性、适应性和智能化水平。</font>
+**<font style="color:rgb(38, 38, 38);">为了应对这些挑战</font>**<font style="color:rgb(38, 38, 38);">，研究人员正在积极探索将</font>**<font style="color:rgb(38, 38, 38);">人工智能技术应用于水下无人系统</font>**<font style="color:rgb(38, 38, 38);">，以</font>**<font style="color:rgb(38, 38, 38);">提高其自主性、适应性和智能化水平。</font>**
 
-1. <font style="color:rgb(38, 38, 38);">主要研究方向</font>
+1. **<font style="color:rgb(38, 38, 38);">主要研究方向</font>**
 
 <font style="color:rgb(38, 38, 38);">基于当前的技术发展和需求，我的研究主要集中在以下几个方向：</font>
 
-<font style="color:rgb(38, 38, 38);">a) 智能导航与定位</font>
+<font style="color:rgb(38, 38, 38);">a) </font>**<font style="color:rgb(38, 38, 38);">智能导航与定位</font>**
 
-+ <font style="color:rgb(38, 38, 38);">多传感器融合算法（如DVL、声纳、IMU等）</font>
-+ <font style="color:rgb(38, 38, 38);">基于深度学习的视觉导航</font>
-+ <font style="color:rgb(38, 38, 38);">自适应SLAM（同步定位与建图）算法</font>
++ **<font style="color:rgb(38, 38, 38);">多传感器</font>**<font style="color:rgb(38, 38, 38);">融合算法（如</font><font style="color:rgb(34, 34, 38);">DVL（多普勒速度记录仪）</font><font style="color:rgb(38, 38, 38);">、声纳等）</font>
++ <font style="color:rgb(38, 38, 38);">基于</font>**<font style="color:rgb(38, 38, 38);">深度学习的视觉导航</font>**<font style="color:rgb(38, 38, 38);">、摄像头</font>
 
-<font style="color:rgb(38, 38, 38);">b) 智能路径规划与控制</font>
 
-+ <font style="color:rgb(38, 38, 38);">基于强化学习的自适应路径规划</font>
+
+<font style="color:rgb(38, 38, 38);">b) </font>**<font style="color:rgb(38, 38, 38);">智能路径规划与控制</font>**
+
++ <font style="color:rgb(38, 38, 38);">基于强化学习的</font>**<font style="color:rgb(38, 38, 38);">自适应路径规划</font>**
++ **<font style="color:rgb(38, 38, 38);">鲁棒控制算法</font>**<font style="color:rgb(38, 38, 38);">，应对复杂水流和障碍物</font>
 + <font style="color:rgb(38, 38, 38);">考虑能耗和任务需求的多目标优化算法</font>
-+ <font style="color:rgb(38, 38, 38);">鲁棒控制算法，应对复杂水流和障碍物</font>
 
-<font style="color:rgb(38, 38, 38);">c) 环境感知与理解</font>
 
-+ <font style="color:rgb(38, 38, 38);">基于深度学习的水下目标检测和识别</font>
+
+<font style="color:rgb(38, 38, 38);">c) </font>**<font style="color:rgb(38, 38, 38);">环境感知与理解</font>**
+
++ **<font style="color:rgb(38, 38, 38);">基于深度学习的水下目标检测和识别</font>**
 + <font style="color:rgb(38, 38, 38);">多模态数据融合的环境建模</font>
 + <font style="color:rgb(38, 38, 38);">实时水下场景理解和语义分割</font>
 
-<font style="color:rgb(38, 38, 38);">d) 智能任务规划与执行</font>
+<font style="color:rgb(38, 38, 38);">d) </font>**<font style="color:rgb(38, 38, 38);">智能任务规划与执行</font>**
 
 + <font style="color:rgb(38, 38, 38);">基于知识图谱的任务推理和决策</font>
 + <font style="color:rgb(38, 38, 38);">自主任务调整和优化</font>
-+ <font style="color:rgb(38, 38, 38);">多AUV协同任务规划</font>
++ **<font style="color:rgb(38, 38, 38);">多AUV协同任务规划</font>**
 
 <font style="color:rgb(38, 38, 38);">e) 水下通信与数据处理</font>
 
@@ -418,9 +420,9 @@ a) 初始化:
 + <font style="color:rgb(38, 38, 38);">边缘计算在AUV中的应用</font>
 + <font style="color:rgb(38, 38, 38);">大规模水下数据的智能分析和压缩</font>
 
-<font style="color:rgb(38, 38, 38);">这些研究方向旨在利用人工智能技术提高水下无人系统的性能和自主能力，使其能够更好地应对复杂多变的水下环境，完成各种挑战性任务。我们的目标是开发下一代智能水下系统，为海洋资源开发、环境保护和科学研究提供强有力的技术支持。</font>
+<font style="color:rgb(38, 38, 38);">这些研究方向旨在利用人工智能技术</font>**<font style="color:rgb(38, 38, 38);">提高水下无人系统的性能和自主能力</font>**<font style="color:rgb(38, 38, 38);">，使其能够更好地应对复杂多变的水下环境，完成各种挑战性任务。我们的目标是开发下一代智能水下系统，为海洋资源开发、环境保护和科学研究提供强有力的技术支持。</font>
 
-<font style="color:rgb(38, 38, 38);">在接下来的研究中，我将重点关注[您可以在此处插入您最感兴趣的1-2个具体方向]，并探索如何将这些技术应用于实际的水下任务中。</font>
+<font style="color:rgb(38, 38, 38);"></font>
 
 <font style="color:rgb(38, 38, 38);">这就是我研究方向的简要介绍，感谢大家的聆听。如果有任何问题，我很乐意回答。</font>
 
