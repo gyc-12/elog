@@ -2,7 +2,7 @@
 title: sf笔记
 urlname: zbwytv6yvg4vym0w
 date: 2024-09-13T19:07:05.000Z
-updated: '2024-09-25 12:03:22'
+updated: '2024-09-25 13:36:44'
 author: gaoyanchen
 description: '---title: sf笔记date: 2024-09-13 19:07:05tags: "笔记"thumbnail: "https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square...'
 tags: 笔记
@@ -406,23 +406,21 @@ a) 初始化:
 
 + **<font style="color:rgb(38, 38, 38);">基于深度学习的水下目标检测和识别</font>**
 + <font style="color:rgb(38, 38, 38);">多模态数据融合的环境建模</font>
-+ <font style="color:rgb(38, 38, 38);">实时水下场景理解和语义分割</font>
 
 <font style="color:rgb(38, 38, 38);">d) </font>**<font style="color:rgb(38, 38, 38);">智能任务规划与执行</font>**
 
-+ <font style="color:rgb(38, 38, 38);">基于知识图谱的任务推理和决策</font>
-+ <font style="color:rgb(38, 38, 38);">自主任务调整和优化</font>
++ **<font style="color:rgb(38, 38, 38);">自主任务调整和优化</font>**
 + **<font style="color:rgb(38, 38, 38);">多AUV协同任务规划</font>**
 
-<font style="color:rgb(38, 38, 38);">e) 水下通信与数据处理</font>
+~~<font style="color:rgb(38, 38, 38);">e) 水下通信与数据处理</font>~~
 
-+ <font style="color:rgb(38, 38, 38);">基于机器学习的水声通信优化</font>
-+ <font style="color:rgb(38, 38, 38);">边缘计算在AUV中的应用</font>
-+ <font style="color:rgb(38, 38, 38);">大规模水下数据的智能分析和压缩</font>
++ ~~<font style="color:rgb(38, 38, 38);">基于机器学习的水声通信优化</font>~~
++ ~~<font style="color:rgb(38, 38, 38);">边缘计算在AUV中的应用</font>~~
++ ~~<font style="color:rgb(38, 38, 38);">大规模水下数据的智能分析和压缩</font>~~
 
 <font style="color:rgb(38, 38, 38);">这些研究方向旨在利用人工智能技术</font>**<font style="color:rgb(38, 38, 38);">提高水下无人系统的性能和自主能力</font>**<font style="color:rgb(38, 38, 38);">，使其能够更好地应对复杂多变的水下环境，完成各种挑战性任务。我们的目标是开发下一代智能水下系统，为海洋资源开发、环境保护和科学研究提供强有力的技术支持。</font>
 
 <font style="color:rgb(38, 38, 38);"></font>
 
-<font style="color:rgb(38, 38, 38);">这就是我研究方向的简要介绍，感谢大家的聆听。如果有任何问题，我很乐意回答。</font>
+<font style="color:rgb(38, 38, 38);"></font>
 
