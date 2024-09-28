@@ -2,7 +2,7 @@
 title: React
 urlname: tp4wl7vyhn3147p7
 date: 2024-09-13T19:07:05.000Z
-updated: '2024-09-24 23:09:14'
+updated: '2024-09-28 14:53:58'
 author: gaoyanchen
 description: '---title: Reactdate: 2024-09-13 19:07:05tags: "笔记"thumbnail: "https://www.runoob.com/wp-content/uploads/2016/02/react.png"---colocation自动嵌套自动嵌套: 当你...'
 tags: 笔记
@@ -131,4 +131,9 @@ updateMyTodos(draft => {
 <font style="color:rgb(35, 39, 47);">这是因为你并不是在直接修改原始的 state，而是在修改 Immer 提供的一个特殊的 </font>`draft`<font style="color:rgb(35, 39, 47);"> 对象。同理，你也可以为 </font>`draft`<font style="color:rgb(35, 39, 47);"> 的内容使用 </font>`push()`<font style="color:rgb(35, 39, 47);"> 和 </font>`pop()`<font style="color:rgb(35, 39, 47);"> 这些会直接修改原值的方法。</font>
 
 <font style="color:rgb(35, 39, 47);">在幕后，Immer 总是会根据你对 </font>`draft`<font style="color:rgb(35, 39, 47);"> 的修改来从头开始构建下一个 state。这使得你的事件处理程序非常的简洁，同时也不会直接修改 state。</font>
+
+<font style="color:rgb(35, 39, 47);"></font>
+
+## <font style="color:rgb(35, 39, 47);">==和===</font>
+![](https://raw.githubusercontent.com/gyc-12/images/master/e4701dcad2b72bc58e9ab9f2344f509b.png)
 
