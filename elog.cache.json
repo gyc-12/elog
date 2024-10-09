@@ -280,16 +280,14 @@
     {
       "id": 186485177,
       "doc_id": "zbwytv6yvg4vym0w",
-      "updated": 1727242604000,
+      "updated": 1728443368000,
       "properties": {
         "title": "sf笔记",
         "urlname": "zbwytv6yvg4vym0w",
-        "date": "2024-09-13T19:07:05.000Z",
-        "updated": "2024-09-25 13:36:44",
+        "date": "2024-09-13 20:43:24",
+        "updated": "2024-10-09 11:09:28",
         "author": "gaoyanchen",
-        "description": "---title: sf笔记date: 2024-09-13 19:07:05tags: \"笔记\"thumbnail: \"https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square...",
-        "tags": "笔记",
-        "thumbnail": "https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square_social.jpg"
+        "description": "---title: sf笔记date: 2024-09-13 19:07:05tags: \"笔记\"thumbnail: \"https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square..."
       },
       "catalog": [],
       "realName": "sf笔记",
@@ -352,9 +350,44 @@
       "realName": "azure学生机部署青龙",
       "relativePath": "/azure学生机部署青龙.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 189535638,
+      "doc_id": "xoe4063ux4tpunze",
+      "updated": 1728475299000,
+      "properties": {
+        "title": "OpenWrt中docker的默认dns修改问题",
+        "urlname": "xoe4063ux4tpunze",
+        "date": "2024-10-09 19:55:26",
+        "updated": "2024-10-09 20:01:39",
+        "author": "gaoyanchen",
+        "description": "---title: OpenWrt中docker的默认dns修改问题date: 2024-10-09 19:07:05tags: \"笔记\"thumbnail: \"https://github.com/openwrt/openwrt/raw/main/include/logo.png\"---/e..."
+      },
+      "catalog": [],
+      "realName": "OpenWrt中docker的默认dns修改问题",
+      "relativePath": "/OpenWrt中docker的默认dns修改问题.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "V4wIsEgOhjWtxTQd",
+      "type": "DOC",
+      "title": "OpenWrt中docker的默认dns修改问题",
+      "url": "xoe4063ux4tpunze",
+      "slug": "xoe4063ux4tpunze",
+      "id": 189535638,
+      "doc_id": 189535638,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "SBVN74TZeCF6zivn",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "SBVN74TZeCF6zivn",
       "type": "DOC",
@@ -367,7 +400,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "V4wIsEgOhjWtxTQd",
       "sibling_uuid": "s-HWRgedzR1TgWEQ",
       "child_uuid": "",
       "parent_uuid": "",
