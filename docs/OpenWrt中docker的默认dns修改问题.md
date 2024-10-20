@@ -1,15 +1,13 @@
 ---
-
-<font style="color:rgb(38, 38, 38);">title: OpenWrt中docker的默认dns修改问题</font>
-
-<font style="color:rgb(38, 38, 38);">date: 2024-10-09 19:07:05</font>
-
-<font style="color:rgb(38, 38, 38);">tags: "笔记"</font>
-
-<font style="color:rgb(38, 38, 38);">thumbnail: "</font>https://github.com/openwrt/openwrt/raw/main/include/logo.png<font style="color:rgb(38, 38, 38);">"</font>
-
-<font style="color:rgb(38, 38, 38);">---</font>
-
+title: OpenWrt中docker的默认dns修改问题
+urlname: xoe4063ux4tpunze
+date: 2024-10-14T19:07:05.000Z
+updated: '2024-10-20 17:21:55'
+author: gaoyanchen
+description: '---title: OpenWrt中docker的默认dns修改问题date: 2024-10-14 19:07:05tags: "笔记"thumbnail: "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom...'
+tags: 笔记
+thumbnail: 'https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure'
+---
 <font style="color:rgb(38, 38, 38);"></font>
 
 `<font style="color:rgb(38, 38, 38);">/etc/init.d/dockerd</font>`<font style="color:rgb(38, 38, 38);"> 脚本设置使用 </font>`<font style="color:rgb(38, 38, 38);">/tmp/dockerd/daemon.json</font>`<font style="color:rgb(38, 38, 38);"> 作为 Docker 的配置文件，而脚本启动过程中</font>`<font style="color:rgb(38, 38, 38);">process_config()</font>`<font style="color:rgb(38, 38, 38);"> 函数负责生成 Docker 配置。它从 </font>`<font style="color:rgb(38, 38, 38);">/etc/config/dockerd</font>`<font style="color:rgb(38, 38, 38);"> 读取设置，然后创建 JSON 格式的配置文件。可以使用uci修改也可以直接修改</font>`<font style="color:rgb(38, 38, 38);">/etc/config/dockerd</font>`<font style="color:rgb(38, 38, 38);">文件</font>

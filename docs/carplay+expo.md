@@ -1,15 +1,13 @@
 ---
-
-<font style="color:rgb(38, 38, 38);">title: carplay+expo</font>
-
-<font style="color:rgb(38, 38, 38);">date: 2024-10-19 19:07:05</font>
-
-<font style="color:rgb(38, 38, 38);">tags: "笔记"</font>
-
-<font style="color:rgb(38, 38, 38);">thumbnail: "</font>https://github.com/openwrt/openwrt/raw/main/include/logo.png<font style="color:rgb(38, 38, 38);">"</font>
-
-<font style="color:rgb(38, 38, 38);">---</font>
-
+title: carplay+expo
+urlname: mc5y0ehd22dxa2cc
+date: 2024-10-19T19:07:05.000Z
+updated: '2024-10-20 17:22:00'
+author: gaoyanchen
+description: '---title: carplay+expodate: 2024-10-19 19:07:05tags: "笔记"thumbnail: "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon...'
+tags: 笔记
+thumbnail: 'https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure'
+---
 # 1、CarPlay app entitlements
 In Xcode, create an Entitlements.plist file in your project, if you don't have one already. Add your CarPlay app entitlement keys as a boolean key. The following example is for a CarPlay audio app. 
 

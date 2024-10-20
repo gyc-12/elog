@@ -354,14 +354,16 @@
     {
       "id": 189535638,
       "doc_id": "xoe4063ux4tpunze",
-      "updated": 1728475299000,
+      "updated": 1729416115000,
       "properties": {
         "title": "OpenWrt中docker的默认dns修改问题",
         "urlname": "xoe4063ux4tpunze",
-        "date": "2024-10-09 19:55:26",
-        "updated": "2024-10-09 20:01:39",
+        "date": "2024-10-14T19:07:05.000Z",
+        "updated": "2024-10-20 17:21:55",
         "author": "gaoyanchen",
-        "description": "---title: OpenWrt中docker的默认dns修改问题date: 2024-10-09 19:07:05tags: \"笔记\"thumbnail: \"https://github.com/openwrt/openwrt/raw/main/include/logo.png\"---/e..."
+        "description": "---title: OpenWrt中docker的默认dns修改问题date: 2024-10-14 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom...",
+        "tags": "笔记",
+        "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
       },
       "catalog": [],
       "realName": "OpenWrt中docker的默认dns修改问题",
@@ -371,14 +373,16 @@
     {
       "id": 191016548,
       "doc_id": "mc5y0ehd22dxa2cc",
-      "updated": 1729415602000,
+      "updated": 1729416120000,
       "properties": {
         "title": "carplay+expo",
         "urlname": "mc5y0ehd22dxa2cc",
-        "date": "2024-10-20 17:08:19",
-        "updated": "2024-10-20 17:13:22",
+        "date": "2024-10-19T19:07:05.000Z",
+        "updated": "2024-10-20 17:22:00",
         "author": "gaoyanchen",
-        "description": "---title: carplay+expodate: 2024-10-19 19:07:05tags: \"笔记\"thumbnail: \"https://github.com/openwrt/openwrt/raw/main/include/logo.png\"---1、CarPlay app ..."
+        "description": "---title: carplay+expodate: 2024-10-19 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon...",
+        "tags": "笔记",
+        "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
       },
       "catalog": [],
       "realName": "carplay+expo",
