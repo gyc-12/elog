@@ -2,7 +2,7 @@
 title: React
 urlname: tp4wl7vyhn3147p7
 date: 2024-09-13T19:07:05.000Z
-updated: '2024-09-28 14:53:58'
+updated: '2024-10-17 11:24:02'
 author: gaoyanchen
 description: '---title: Reactdate: 2024-09-13 19:07:05tags: "笔记"thumbnail: "https://www.runoob.com/wp-content/uploads/2016/02/react.png"---colocation自动嵌套自动嵌套: 当你...'
 tags: 笔记
@@ -136,4 +136,15 @@ updateMyTodos(draft => {
 
 ## <font style="color:rgb(35, 39, 47);">==和===</font>
 ![](https://raw.githubusercontent.com/gyc-12/images/master/e4701dcad2b72bc58e9ab9f2344f509b.png)
+
+## `<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useCallback</font>`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">和</font><font style="color:rgb(25, 27, 31);"> </font>`<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useMomeo</font>`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">的区别</font>
+`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useCallback</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">和</font><font style="color:rgb(25, 27, 31);"> </font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useMemo</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">都是用于性能优化的 React 钩子函数，它们都可以避免不必要的重新计算或重新渲染。虽然它们看起来很相似，但它们有几个重要的区别。</font>
+
+<font style="color:rgb(25, 27, 31);">首先，</font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useCallback</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">返回一个缓存的回调函数，而</font><font style="color:rgb(25, 27, 31);"> </font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useMemo</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">返回一个缓存的值。这意味着</font><font style="color:rgb(25, 27, 31);"> </font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useCallback</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">的主要作用是为一个函数创建缓存，而</font><font style="color:rgb(25, 27, 31);"> </font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useMemo</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">的主要作用是缓存一个值。</font>
+
+<font style="color:rgb(25, 27, 31);">其次，它们接受的参数不同。</font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useCallback</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">接受一个回调函数和一个依赖项数组，而</font><font style="color:rgb(25, 27, 31);"> </font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useMemo</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">接受一个函数和一个依赖项数组。在</font><font style="color:rgb(25, 27, 31);"> </font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useCallback</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">中，只有依赖项数组中的值发生变化时，才会重新创建回调函数。而在</font><font style="color:rgb(25, 27, 31);"> </font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useMemo</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">中，只有依赖项数组中的值发生变化时，才会重新计算值。</font>
+
+<font style="color:rgb(25, 27, 31);">最后，它们的使用场景也不同。</font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useCallback</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">适用于优化回调函数，避免不必要的重新渲染，并传递给子组件。而</font><font style="color:rgb(25, 27, 31);"> </font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useMemo</font>**`<font style="color:rgb(25, 27, 31);"> </font><font style="color:rgb(25, 27, 31);">适用于优化计算开销较大的值，如大型数组或对象的计算。</font>
+
+<font style="color:rgb(25, 27, 31);">综上所述，</font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useCallback</font>**`<font style="color:rgb(25, 27, 31);"> 和 </font>`**<font style="color:rgb(25, 27, 31);background-color:rgb(248, 248, 250);">useMemo</font>**`<font style="color:rgb(25, 27, 31);"> 的主要区别在于它们的返回值类型和使用场景。需要根据具体的情况选择使用哪个钩子函数。</font>
 
