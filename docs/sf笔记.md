@@ -1,23 +1,13 @@
 ---
 title: sf笔记
 urlname: zbwytv6yvg4vym0w
-date: '2024-09-13 20:43:24'
-updated: '2024-10-09 11:09:28'
+date: 2024-09-13T19:07:05.000Z
+updated: '2024-10-26 16:14:15'
 author: gaoyanchen
-description: '---title: sf笔记date: 2024-09-13 19:07:05tags: "笔记"thumbnail: "https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square...'
+description: '---title: sf笔记date: 2024-09-13 19:07:05tags: "笔记"thumbnail: "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"-...'
+tags: 笔记
+thumbnail: 'https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure'
 ---
- ---
-
-title: sf笔记
-
-date: 2024-09-13 19:07:05
-
-tags: "笔记"
-
-thumbnail: "https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square_social.jpg"
-
----
-
 + 基本原理: D*算法的核心思想是在机器人移动过程中,根据新发现的环境信息动态更新路径。它维护一个从目标到起点的最优路径,并在发现新障碍物时进行局部修改。
 + 关键概念:
 +  a) 状态: 表示环境中的位置。

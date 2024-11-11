@@ -280,14 +280,16 @@
     {
       "id": 186485177,
       "doc_id": "zbwytv6yvg4vym0w",
-      "updated": 1728443368000,
+      "updated": 1729930455000,
       "properties": {
         "title": "sf笔记",
         "urlname": "zbwytv6yvg4vym0w",
-        "date": "2024-09-13 20:43:24",
-        "updated": "2024-10-09 11:09:28",
+        "date": "2024-09-13T19:07:05.000Z",
+        "updated": "2024-10-26 16:14:15",
         "author": "gaoyanchen",
-        "description": "---title: sf笔记date: 2024-09-13 19:07:05tags: \"笔记\"thumbnail: \"https://www.apple.com.cn/newsroom/images/logos/quick-reads-logos/Apple-logo.jpg.square..."
+        "description": "---title: sf笔记date: 2024-09-13 19:07:05tags: \"笔记\"thumbnail: \"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure\"-...",
+        "tags": "笔记",
+        "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
       },
       "catalog": [],
       "realName": "sf笔记",
@@ -388,9 +390,78 @@
       "realName": "carplay+expo",
       "relativePath": "/carplay+expo.md",
       "docPath": "./docs"
+    },
+    {
+      "id": 193992355,
+      "doc_id": "ztlddeek7ggr5dfl",
+      "updated": 1731330124000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "ztlddeek7ggr5dfl",
+        "date": "2024-11-11 21:01:58",
+        "updated": "2024-11-11 21:02:04",
+        "author": "gaoyanchen",
+        "description": "常见问题xxx.app 已损坏，无法打开，你应该将它移到废纸篓/打不开 xxx，因为它来自身份不明的开发者解决方法方法1 开启任何来源先打开 系统偏好设置 -&gt; 安全与隐私 -&gt; 通用 选项卡，检查是否已经启用了 任何来源 选项。如果没有这个选项，复制以下面的命令：sudo spctl --m..."
+      },
+      "catalog": [],
+      "realName": "无标题文档",
+      "relativePath": "/无标题文档.md",
+      "docPath": "./docs"
+    },
+    {
+      "id": 193992361,
+      "doc_id": "sxi913pw50k56nkw",
+      "updated": 1731330198221,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "sxi913pw50k56nkw",
+        "date": "2024-11-11 21:02:00",
+        "updated": "2024-11-11 21:03:18",
+        "author": "gaoyanchen"
+      },
+      "catalog": [],
+      "realName": "无标题文档_sxi913pw50k56nkw",
+      "relativePath": "/无标题文档_sxi913pw50k56nkw.md",
+      "docPath": "./docs"
     }
   ],
   "catalog": [
+    {
+      "uuid": "fn2fsx7YAnnLcSFV",
+      "type": "DOC",
+      "title": "无标题文档",
+      "url": "sxi913pw50k56nkw",
+      "slug": "sxi913pw50k56nkw",
+      "id": 193992361,
+      "doc_id": 193992361,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "",
+      "sibling_uuid": "OUfrVIf5mhB2kODn",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
+    {
+      "uuid": "OUfrVIf5mhB2kODn",
+      "type": "DOC",
+      "title": "无标题文档",
+      "url": "ztlddeek7ggr5dfl",
+      "slug": "ztlddeek7ggr5dfl",
+      "id": 193992355,
+      "doc_id": 193992355,
+      "level": 0,
+      "depth": 1,
+      "open_window": 1,
+      "visible": 1,
+      "prev_uuid": "fn2fsx7YAnnLcSFV",
+      "sibling_uuid": "nNd7ZLeZ8gA6w5Yb",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "_serializer": "v2.toc_item"
+    },
     {
       "uuid": "nNd7ZLeZ8gA6w5Yb",
       "type": "DOC",
@@ -403,7 +474,7 @@
       "depth": 1,
       "open_window": 1,
       "visible": 1,
-      "prev_uuid": "",
+      "prev_uuid": "OUfrVIf5mhB2kODn",
       "sibling_uuid": "V4wIsEgOhjWtxTQd",
       "child_uuid": "",
       "parent_uuid": "",
