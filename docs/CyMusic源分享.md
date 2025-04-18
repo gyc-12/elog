@@ -2,7 +2,7 @@
 title: CyMusic源分享
 urlname: ripmwko3gpdysa1r
 date: 2024-09-07T19:07:05.000Z
-updated: '2024-11-16 11:11:46'
+updated: '2024-12-01 15:37:00'
 author: gaoyanchen
 description: '---title: CyMusic源分享date: 2024-09-07 19:07:05tags: "笔记"thumbnail: "https://cdn.homecloud.komect.com/gateway/share/oss/15b557e0d25406b90ad79d6344b00...'
 tags: 笔记
@@ -14,7 +14,7 @@ thumbnail: 'https://cdn.homecloud.komect.com/gateway/share/oss/15b557e0d25406b90
 
 音源：
 
-[点击下载ikun-music-source-cymusic.js](https://cdn.homecloud.komect.com/gateway/share/oss/15b557e0d25406b90ad79d6344b00129aac15c9ca2372ec71e9ae0cd2a3d6f0df6f5da077887a23842c4755a55e6005e75d1d3af0c2b8ed075f4ae02dc3808e985531de16136b7af3c44ef0674c1d6abac49ac889aa173b06a8a3556d197bff88c0e24326eb1b65ecdf3af0eb9f75429741242008fc69dbde6e37c442dcf1acb6196c39e17463fd253ede0b23a50e6239b17a66e1fd556d86ba47d3f8851771d)
+[ikun-music-source-v500.js](https://www.yuque.com/attachments/yuque/0/2024/js/12664646/1733038617517-b7bbe6bb-b63f-4c96-b4b9-a6f3d9f478cc.js)
 
 [sangbo-music-source-cymusic.js](https://www.yuque.com/attachments/yuque/0/2024/js/12664646/1731726392673-5e8f52b7-d7be-4213-93d0-76c7403f086c.js)
 
