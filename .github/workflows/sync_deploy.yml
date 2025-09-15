@@ -38,6 +38,8 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           pnpm install --no-frozen-lockfile
+           # 安装glob的类型定义
+          pnpm add -D @types/glob
           pnpm run build 
 
       - name: 拉取语雀文章
